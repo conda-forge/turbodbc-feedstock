@@ -41,6 +41,7 @@ requirements:
 test:
   imports:
     - turbodbc
+    - turbodbc_arrow_support
   commands:
     - conda inspect linkages -p $PREFIX $PKG_NAME  # [linux]
     - conda inspect objects -p $PREFIX $PKG_NAME  # [osx]
