@@ -1,6 +1,6 @@
 {% set name = "turbodbc" %}
-{% set version = "1.1.2" %}
-{% set sha256 = "11aa073db20ed5a43be3d800dbdc8d1aee801f495caf526cf43881e4bf099f5e" %}
+{% set version = "2.0.0" %}
+{% set sha256 = "95c770df744d3e50b6ee230d70244477a0e5ee936afcb0e8a8956c66e9d53e37" %}
 
 package:
   name: {{ name|lower }}
@@ -29,12 +29,14 @@ requirements:
     - six
     - toolchain
     - unixodbc
+    - pyarrow
   run:
     - boost 1.63.*
     - numpy x.x
     - python
     - six
     - unixodbc
+    - pyarrow
 
 test:
   imports:
@@ -51,10 +53,11 @@ about:
   description: |
     Turbodbc is a Python module to access relational databases via the Open
     Database Connectivity (ODBC) interface. In addition to complying with the
-    Python Database API Specification 2.0, turbodbc offers built-in NumPy
-    support. Don't wait minutes for your results, just blink.
+    Python Database API Specification 2.0, turbodbc offers built-in NumPy and
+    Apache Arrow support. Don't wait minutes for your results, just blink.
 
 extra:
   recipe-maintainers:
     - MathMagique
     - xhochy
+    - wesm
