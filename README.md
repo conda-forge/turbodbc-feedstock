@@ -11,8 +11,8 @@ Summary: access relational databases via the Open Database Connectivity (ODBC) i
 
 Turbodbc is a Python module to access relational databases via the Open
 Database Connectivity (ODBC) interface. In addition to complying with the
-Python Database API Specification 2.0, turbodbc offers built-in NumPy
-support. Don't wait minutes for your results, just blink.
+Python Database API Specification 2.0, turbodbc offers built-in NumPy and
+Apache Arrow support. Don't wait minutes for your results, just blink.
 
 
 Current build status
@@ -20,7 +20,7 @@ Current build status
 
 Linux: [![Circle CI](https://circleci.com/gh/conda-forge/turbodbc-feedstock.svg?style=shield)](https://circleci.com/gh/conda-forge/turbodbc-feedstock)
 OSX: [![TravisCI](https://travis-ci.org/conda-forge/turbodbc-feedstock.svg?branch=master)](https://travis-ci.org/conda-forge/turbodbc-feedstock)
-Windows: ![](https://cdn.rawgit.com/conda-forge/conda-smithy/90845bba35bec53edac7a16638aa4d77217a3713/conda_smithy/static/disabled.svg)
+Windows: [![AppVeyor](https://ci.appveyor.com/api/projects/status/github/conda-forge/turbodbc-feedstock?svg=True)](https://ci.appveyor.com/project/conda-forge/turbodbc-feedstock/branch/master)
 
 Current release info
 ====================

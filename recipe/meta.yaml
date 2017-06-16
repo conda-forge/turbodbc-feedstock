@@ -10,13 +10,17 @@ source:
   fn: {{ name }}-{{ version }}.tar.gz
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
   sha256: {{ sha256 }}
+  patches: timezone.patch  # [win]
 
 build:
-  number: 0
+  number: 1
   # turbodbc already has set the correct RPATHs, conda relocation breaks it
   # so skip it.
   binary_relocation: False
-  skip: true  # [not unix]
+  skip: true  # [win32]
+  skip: true  # [win and py<35]
+  features:
+    - vc14  # [win and py>=35]
 
 requirements:
   build:
@@ -28,14 +32,14 @@ requirements:
     - setuptools
     - six
     - toolchain
-    - unixodbc
+    - unixodbc  # [unix]
     - pyarrow
   run:
     - boost 1.63.*
     - numpy x.x
     - python
     - six
-    - unixodbc
+    - unixodbc  # [unix]
     - pyarrow
 
 test:
