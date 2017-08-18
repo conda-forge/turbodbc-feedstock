@@ -24,7 +24,7 @@ build:
 
 requirements:
   build:
-    - boost 1.63.*
+    - boost 1.64.*
     - cmake
     - numpy x.x
     - pybind11
@@ -35,7 +35,7 @@ requirements:
     - unixodbc  # [unix]
     - pyarrow
   run:
-    - boost 1.63.*
+    - boost 1.64.*
     - numpy x.x
     - python
     - six
