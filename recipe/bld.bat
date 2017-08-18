@@ -1,3 +1,3 @@
-set BOOST_ROOT=C:\Libraries\boost_1_63_0
+set BOOST_ROOT=%LIBRARY_PREFIX%
 
 python setup.py install --single-version-externally-managed --record record.txt
