@@ -1,6 +1,6 @@
 {% set name = "turbodbc" %}
-{% set version = "2.1.0" %}
-{% set sha256 = "6733d5a55c95aac3aac25a1ff3f6a8aecabf0232fb3c4f80d7e6846dbfe2166f" %}
+{% set version = "2.2.0" %}
+{% set sha256 = "1fe33404dc7712ff3f54fbdedf0271272aa1c37c2ddd64bd2d8a93673d219148" %}
 
 package:
   name: {{ name|lower }}
@@ -13,7 +13,7 @@ source:
   patches: timezone.patch  # [win]
 
 build:
-  number: 1
+  number: 0
   # turbodbc already has set the correct RPATHs, conda relocation breaks it
   # so skip it.
   binary_relocation: False
