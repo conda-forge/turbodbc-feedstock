@@ -1,6 +1,6 @@
 {% set name = "turbodbc" %}
-{% set version = "2.2.0" %}
-{% set sha256 = "1fe33404dc7712ff3f54fbdedf0271272aa1c37c2ddd64bd2d8a93673d219148" %}
+{% set version = "2.3.0" %}
+{% set sha256 = "756a4faebe4674a1cf2dadb5d45e4d0f8b5e5bc9ae2f5695e603217d298b012d" %}
 
 package:
   name: {{ name|lower }}
@@ -33,14 +33,14 @@ requirements:
     - six
     - toolchain
     - unixodbc  # [unix]
-    - pyarrow
+    - pyarrow 0.6.*
   run:
     - boost 1.64.*
     - numpy x.x
     - python
     - six
     - unixodbc  # [unix]
-    - pyarrow
+    - pyarrow 0.6.*
 
 test:
   imports:
