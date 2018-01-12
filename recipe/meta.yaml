@@ -1,6 +1,6 @@
 {% set name = "turbodbc" %}
-{% set version = "2.4.1" %}
-{% set sha256 = "eb1057e055bf09afed3ac0ea56c184085b49892d438856e7975c39b9c434d624" %}
+{% set version = "2.5.0" %}
+{% set sha256 = "395c1abe8aa389745ab72421189908ecaa3699dceccb224920778439196dc80b" %}
 
 package:
   name: {{ name|lower }}
@@ -12,7 +12,7 @@ source:
   sha256: {{ sha256 }}
 
 build:
-  number: 1
+  number: 0
   # turbodbc already has set the correct RPATHs, conda relocation breaks it
   # so skip it.
   binary_relocation: False
@@ -32,13 +32,13 @@ requirements:
     - six
     - toolchain
     - unixodbc  # [unix]
-    - pyarrow 0.7.*
+    - pyarrow 0.8.*
   run:
     - numpy >=1.11
     - python
     - six
     - unixodbc  # [unix]
-    - pyarrow 0.7.*
+    - pyarrow 0.8.*
 
 test:
   imports:
