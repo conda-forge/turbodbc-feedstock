@@ -22,16 +22,12 @@ build:
 requirements:
   build:
     - cmake
-    - {{ pin_compatible('numpy') }}   # [not (win and py>=36)]
-    - {{ pin_compatible('numpy') }}   # [win and py>=36]
-    - {{ compiler('cxx') }}
-  host:
     - {{ compiler('c') }}
     - {{ compiler('cxx') }}
   host:
     - boost
-    - numpy         # [not (win and py>=36)]
-    - numpy         # [win and py>=36]
+    - numpy 1.10.*   # [not (win and py>=36)]
+    - numpy 1.12.*   # [win and py>=36]
     - pybind11
     - python
     - setuptools
@@ -41,6 +37,8 @@ requirements:
   run:
     - python
     - six
+    - {{ pin_compatible('numpy', lower_bound='1.10') }}   # [not (win and py>=36)]
+    - {{ pin_compatible('numpy', lower_bound='1.12') }}   # [win and py>=36]
     - unixodbc  # [unix]
     - pyarrow 0.9.*
 
