@@ -12,31 +12,31 @@ source:
   sha256: {{ sha256 }}
 
 build:
-  number: 0
+  number: 1
   # turbodbc already has set the correct RPATHs, conda relocation breaks it
   # so skip it.
   binary_relocation: False
   skip: true  # [win32]
   skip: true  # [win and py<35]
-  features:
-    - vc14  # [win and py>=35]
 
 requirements:
   build:
-    - boost >=1.64
     - cmake
-    - numpy 1.11.*  # [not (win and py>=36)]
-    - numpy 1.12.*  # [win and py>=36]
+    - {{ compiler('c') }}
+    - {{ compiler('cxx') }}
+  host:
+    - boost
+    - numpy         # [not (win and py>=36)]
+    - numpy         # [win and py>=36]
     - pybind11
     - python
     - setuptools
     - six
-    - toolchain
     - unixodbc  # [unix]
     - pyarrow 0.9.*
   run:
-    - numpy >=1.11  # [not (win and py>=36)]
-    - numpy >=1.12  # [win and py>=36]
+    - {{ pin_compatible('numpy') }}   # [not (win and py>=36)]
+    - {{ pin_compatible('numpy') }}   # [win and py>=36]
     - python
     - six
     - unixodbc  # [unix]
