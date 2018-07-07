@@ -1,6 +1,6 @@
 {% set name = "turbodbc" %}
-{% set version = "2.6.0" %}
-{% set sha256 = "00b39280554556134fc45b2a6dfcc17f5109af7d7da927e967e75db1fd8c70ed" %}
+{% set version = "2.7.0" %}
+{% set sha256 = "9d482cf5c2942ac75d3897a8659dcb725580703491ec8e95e655d22fe4bc6b78" %}
 
 package:
   name: {{ name|lower }}
@@ -12,7 +12,7 @@ source:
   sha256: {{ sha256 }}
 
 build:
-  number: 2
+  number: 0
   # turbodbc already has set the correct RPATHs, conda relocation breaks it
   # so skip it.
   binary_relocation: False
