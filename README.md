@@ -18,14 +18,16 @@ Apache Arrow support. Don't wait minutes for your results, just blink.
 Current build status
 ====================
 
-Linux: [![Circle CI](https://circleci.com/gh/conda-forge/turbodbc-feedstock.svg?style=shield)](https://circleci.com/gh/conda-forge/turbodbc-feedstock)
-OSX: [![TravisCI](https://travis-ci.org/conda-forge/turbodbc-feedstock.svg?branch=master)](https://travis-ci.org/conda-forge/turbodbc-feedstock)
-Windows: [![AppVeyor](https://ci.appveyor.com/api/projects/status/github/conda-forge/turbodbc-feedstock?svg=True)](https://ci.appveyor.com/project/conda-forge/turbodbc-feedstock/branch/master)
+[![Linux](https://img.shields.io/circleci/project/github/conda-forge/turbodbc-feedstock/master.svg?label=Linux)](https://circleci.com/gh/conda-forge/turbodbc-feedstock)
+[![OSX](https://img.shields.io/travis/conda-forge/turbodbc-feedstock/master.svg?label=macOS)](https://travis-ci.org/conda-forge/turbodbc-feedstock)
+[![Windows](https://img.shields.io/appveyor/ci/conda-forge/turbodbc-feedstock/master.svg?label=Windows)](https://ci.appveyor.com/project/conda-forge/turbodbc-feedstock/branch/master)
 
 Current release info
 ====================
-Version: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/turbodbc/badges/version.svg)](https://anaconda.org/conda-forge/turbodbc)
-Downloads: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/turbodbc/badges/downloads.svg)](https://anaconda.org/conda-forge/turbodbc)
+
+| Name | Downloads | Version | Platforms |
+| --- | --- | --- | --- |
+| [![Conda Recipe](https://img.shields.io/badge/recipe-turbodbc-green.svg)](https://anaconda.org/conda-forge/turbodbc) | [![Conda Downloads](https://img.shields.io/conda/dn/conda-forge/turbodbc.svg)](https://anaconda.org/conda-forge/turbodbc) | [![Conda Version](https://img.shields.io/conda/vn/conda-forge/turbodbc.svg)](https://anaconda.org/conda-forge/turbodbc) | [![Conda Platforms](https://img.shields.io/conda/pn/conda-forge/turbodbc.svg)](https://anaconda.org/conda-forge/turbodbc) |
 
 Installing turbodbc
 ===================
