@@ -32,13 +32,13 @@ requirements:
     - setuptools
     - six
     - unixodbc  # [unix]
-    - pyarrow 0.12.*
+    - pyarrow 0.13.*
   run:
     - python
     - six
     - {{ pin_compatible('numpy', lower_bound='1.14') }}
     - unixodbc  # [unix]
-    - pyarrow 0.12.*
+    - pyarrow 0.13.*
 
 test:
   imports:
