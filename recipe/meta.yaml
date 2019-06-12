@@ -26,18 +26,21 @@ requirements:
     - {{ compiler('cxx') }}
   host:
     - boost
+    - boost-cpp
     - numpy 1.14.*
     - pybind11
     - python
     - setuptools
     - six
     - unixodbc  # [unix]
+    - arrow-cpp 0.13.*
     - pyarrow 0.13.*
   run:
     - python
     - six
     - {{ pin_compatible('numpy', lower_bound='1.14') }}
     - unixodbc  # [unix]
+    - arrow-cpp 0.13.*
     - pyarrow 0.13.*
 
 test:
