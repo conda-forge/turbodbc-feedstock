@@ -37,6 +37,8 @@ requirements:
     - pyarrow 0.13.*
   run:
     - python
+    # pkg_resources is used to determine the package version
+    - setuptools
     - six
     - {{ pin_compatible('numpy', lower_bound='1.14') }}
     - unixodbc  # [unix]
