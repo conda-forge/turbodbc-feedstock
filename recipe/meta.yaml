@@ -33,8 +33,8 @@ requirements:
     - setuptools
     - six
     - unixodbc  # [unix]
-    - arrow-cpp 0.13.*
-    - pyarrow 0.13.*
+    - arrow-cpp 0.14.*
+    - pyarrow 0.14.*
   run:
     - python
     # pkg_resources is used to determine the package version
@@ -42,8 +42,8 @@ requirements:
     - six
     - {{ pin_compatible('numpy', lower_bound='1.14') }}
     - unixodbc  # [unix]
-    - arrow-cpp 0.13.*
-    - pyarrow 0.13.*
+    - arrow-cpp 0.14.*
+    - pyarrow 0.14.*
 
 test:
   imports:
