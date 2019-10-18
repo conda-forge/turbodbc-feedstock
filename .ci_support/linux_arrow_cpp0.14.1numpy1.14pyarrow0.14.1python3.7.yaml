@@ -1,19 +1,25 @@
 arrow_cpp:
-- 0.15.0
+- 0.14.1
 boost:
 - 1.70.0
 boost_cpp:
 - 1.70.0
 c_compiler:
-- vs2015
+- gcc
+c_compiler_version:
+- '7'
 channel_sources:
 - conda-forge,defaults
 channel_targets:
 - conda-forge main
 cxx_compiler:
-- vs2015
+- gxx
+cxx_compiler_version:
+- '7'
+docker_image:
+- condaforge/linux-anvil-comp7
 numpy:
-- '0.16'
+- '1.14'
 pin_run_as_build:
   arrow_cpp:
     max_pin: x.x
@@ -27,13 +33,10 @@ pin_run_as_build:
     min_pin: x.x
     max_pin: x.x
 pyarrow:
-- 0.15.0
+- 0.14.1
 python:
 - '3.7'
 zip_keys:
 - - pyarrow
   - arrow_cpp
   - numpy
-- - python
-  - c_compiler
-  - cxx_compiler

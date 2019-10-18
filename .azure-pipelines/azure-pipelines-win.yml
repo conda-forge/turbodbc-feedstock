@@ -10,20 +10,20 @@ jobs:
   strategy:
     maxParallel: 4
     matrix:
-      win_arrow_cpp0.14.1c_compilervs2015cxx_compilervs2015numpy0.14pyarrow0.14.1python3.6:
-        CONFIG: win_arrow_cpp0.14.1c_compilervs2015cxx_compilervs2015numpy0.14pyarrow0.14.1python3.6
+      win_arrow_cpp0.14.1c_compilervs2015cxx_compilervs2015numpy1.14pyarrow0.14.1python3.6:
+        CONFIG: win_arrow_cpp0.14.1c_compilervs2015cxx_compilervs2015numpy1.14pyarrow0.14.1python3.6
         CONDA_BLD_PATH: D:\\bld\\
         UPLOAD_PACKAGES: True
-      win_arrow_cpp0.14.1c_compilervs2015cxx_compilervs2015numpy0.14pyarrow0.14.1python3.7:
-        CONFIG: win_arrow_cpp0.14.1c_compilervs2015cxx_compilervs2015numpy0.14pyarrow0.14.1python3.7
+      win_arrow_cpp0.14.1c_compilervs2015cxx_compilervs2015numpy1.14pyarrow0.14.1python3.7:
+        CONFIG: win_arrow_cpp0.14.1c_compilervs2015cxx_compilervs2015numpy1.14pyarrow0.14.1python3.7
         CONDA_BLD_PATH: D:\\bld\\
         UPLOAD_PACKAGES: True
-      win_arrow_cpp0.15.0c_compilervs2015cxx_compilervs2015numpy0.16pyarrow0.15.0python3.6:
-        CONFIG: win_arrow_cpp0.15.0c_compilervs2015cxx_compilervs2015numpy0.16pyarrow0.15.0python3.6
+      win_arrow_cpp0.15.0c_compilervs2015cxx_compilervs2015numpy1.16pyarrow0.15.0python3.6:
+        CONFIG: win_arrow_cpp0.15.0c_compilervs2015cxx_compilervs2015numpy1.16pyarrow0.15.0python3.6
         CONDA_BLD_PATH: D:\\bld\\
         UPLOAD_PACKAGES: True
-      win_arrow_cpp0.15.0c_compilervs2015cxx_compilervs2015numpy0.16pyarrow0.15.0python3.7:
-        CONFIG: win_arrow_cpp0.15.0c_compilervs2015cxx_compilervs2015numpy0.16pyarrow0.15.0python3.7
+      win_arrow_cpp0.15.0c_compilervs2015cxx_compilervs2015numpy1.16pyarrow0.15.0python3.7:
+        CONFIG: win_arrow_cpp0.15.0c_compilervs2015cxx_compilervs2015numpy1.16pyarrow0.15.0python3.7
         CONDA_BLD_PATH: D:\\bld\\
         UPLOAD_PACKAGES: True
   steps:

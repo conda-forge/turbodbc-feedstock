@@ -19,7 +19,7 @@ cxx_compiler_version:
 docker_image:
 - condaforge/linux-anvil-comp7
 numpy:
-- '0.14'
+- '1.14'
 pin_run_as_build:
   arrow_cpp:
     max_pin: x.x
@@ -35,7 +35,7 @@ pin_run_as_build:
 pyarrow:
 - 0.14.1
 python:
-- '3.6'
+- '2.7'
 zip_keys:
 - - pyarrow
   - arrow_cpp

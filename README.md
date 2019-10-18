@@ -33,115 +33,115 @@ Current build status
         <table>
           <thead><tr><th>Variant</th><th>Status</th></tr></thead>
           <tbody><tr>
-              <td>linux_arrow_cpp0.14.1numpy0.14pyarrow0.14.1python2.7</td>
+              <td>linux_arrow_cpp0.14.1numpy1.14pyarrow0.14.1python2.7</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=2098&branchName=master">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/turbodbc-feedstock?branchName=master&jobName=linux&configuration=linux_arrow_cpp0.14.1numpy0.14pyarrow0.14.1python2.7" alt="variant">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/turbodbc-feedstock?branchName=master&jobName=linux&configuration=linux_arrow_cpp0.14.1numpy1.14pyarrow0.14.1python2.7" alt="variant">
                 </a>
               </td>
             </tr><tr>
-              <td>linux_arrow_cpp0.14.1numpy0.14pyarrow0.14.1python3.6</td>
+              <td>linux_arrow_cpp0.14.1numpy1.14pyarrow0.14.1python3.6</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=2098&branchName=master">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/turbodbc-feedstock?branchName=master&jobName=linux&configuration=linux_arrow_cpp0.14.1numpy0.14pyarrow0.14.1python3.6" alt="variant">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/turbodbc-feedstock?branchName=master&jobName=linux&configuration=linux_arrow_cpp0.14.1numpy1.14pyarrow0.14.1python3.6" alt="variant">
                 </a>
               </td>
             </tr><tr>
-              <td>linux_arrow_cpp0.14.1numpy0.14pyarrow0.14.1python3.7</td>
+              <td>linux_arrow_cpp0.14.1numpy1.14pyarrow0.14.1python3.7</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=2098&branchName=master">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/turbodbc-feedstock?branchName=master&jobName=linux&configuration=linux_arrow_cpp0.14.1numpy0.14pyarrow0.14.1python3.7" alt="variant">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/turbodbc-feedstock?branchName=master&jobName=linux&configuration=linux_arrow_cpp0.14.1numpy1.14pyarrow0.14.1python3.7" alt="variant">
                 </a>
               </td>
             </tr><tr>
-              <td>linux_arrow_cpp0.15.0numpy0.16pyarrow0.15.0python2.7</td>
+              <td>linux_arrow_cpp0.15.0numpy1.16pyarrow0.15.0python2.7</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=2098&branchName=master">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/turbodbc-feedstock?branchName=master&jobName=linux&configuration=linux_arrow_cpp0.15.0numpy0.16pyarrow0.15.0python2.7" alt="variant">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/turbodbc-feedstock?branchName=master&jobName=linux&configuration=linux_arrow_cpp0.15.0numpy1.16pyarrow0.15.0python2.7" alt="variant">
                 </a>
               </td>
             </tr><tr>
-              <td>linux_arrow_cpp0.15.0numpy0.16pyarrow0.15.0python3.6</td>
+              <td>linux_arrow_cpp0.15.0numpy1.16pyarrow0.15.0python3.6</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=2098&branchName=master">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/turbodbc-feedstock?branchName=master&jobName=linux&configuration=linux_arrow_cpp0.15.0numpy0.16pyarrow0.15.0python3.6" alt="variant">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/turbodbc-feedstock?branchName=master&jobName=linux&configuration=linux_arrow_cpp0.15.0numpy1.16pyarrow0.15.0python3.6" alt="variant">
                 </a>
               </td>
             </tr><tr>
-              <td>linux_arrow_cpp0.15.0numpy0.16pyarrow0.15.0python3.7</td>
+              <td>linux_arrow_cpp0.15.0numpy1.16pyarrow0.15.0python3.7</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=2098&branchName=master">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/turbodbc-feedstock?branchName=master&jobName=linux&configuration=linux_arrow_cpp0.15.0numpy0.16pyarrow0.15.0python3.7" alt="variant">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/turbodbc-feedstock?branchName=master&jobName=linux&configuration=linux_arrow_cpp0.15.0numpy1.16pyarrow0.15.0python3.7" alt="variant">
                 </a>
               </td>
             </tr><tr>
-              <td>osx_arrow_cpp0.14.1numpy0.14pyarrow0.14.1python2.7</td>
+              <td>osx_arrow_cpp0.14.1numpy1.14pyarrow0.14.1python2.7</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=2098&branchName=master">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/turbodbc-feedstock?branchName=master&jobName=osx&configuration=osx_arrow_cpp0.14.1numpy0.14pyarrow0.14.1python2.7" alt="variant">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/turbodbc-feedstock?branchName=master&jobName=osx&configuration=osx_arrow_cpp0.14.1numpy1.14pyarrow0.14.1python2.7" alt="variant">
                 </a>
               </td>
             </tr><tr>
-              <td>osx_arrow_cpp0.14.1numpy0.14pyarrow0.14.1python3.6</td>
+              <td>osx_arrow_cpp0.14.1numpy1.14pyarrow0.14.1python3.6</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=2098&branchName=master">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/turbodbc-feedstock?branchName=master&jobName=osx&configuration=osx_arrow_cpp0.14.1numpy0.14pyarrow0.14.1python3.6" alt="variant">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/turbodbc-feedstock?branchName=master&jobName=osx&configuration=osx_arrow_cpp0.14.1numpy1.14pyarrow0.14.1python3.6" alt="variant">
                 </a>
               </td>
             </tr><tr>
-              <td>osx_arrow_cpp0.14.1numpy0.14pyarrow0.14.1python3.7</td>
+              <td>osx_arrow_cpp0.14.1numpy1.14pyarrow0.14.1python3.7</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=2098&branchName=master">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/turbodbc-feedstock?branchName=master&jobName=osx&configuration=osx_arrow_cpp0.14.1numpy0.14pyarrow0.14.1python3.7" alt="variant">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/turbodbc-feedstock?branchName=master&jobName=osx&configuration=osx_arrow_cpp0.14.1numpy1.14pyarrow0.14.1python3.7" alt="variant">
                 </a>
               </td>
             </tr><tr>
-              <td>osx_arrow_cpp0.15.0numpy0.16pyarrow0.15.0python2.7</td>
+              <td>osx_arrow_cpp0.15.0numpy1.16pyarrow0.15.0python2.7</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=2098&branchName=master">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/turbodbc-feedstock?branchName=master&jobName=osx&configuration=osx_arrow_cpp0.15.0numpy0.16pyarrow0.15.0python2.7" alt="variant">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/turbodbc-feedstock?branchName=master&jobName=osx&configuration=osx_arrow_cpp0.15.0numpy1.16pyarrow0.15.0python2.7" alt="variant">
                 </a>
               </td>
             </tr><tr>
-              <td>osx_arrow_cpp0.15.0numpy0.16pyarrow0.15.0python3.6</td>
+              <td>osx_arrow_cpp0.15.0numpy1.16pyarrow0.15.0python3.6</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=2098&branchName=master">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/turbodbc-feedstock?branchName=master&jobName=osx&configuration=osx_arrow_cpp0.15.0numpy0.16pyarrow0.15.0python3.6" alt="variant">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/turbodbc-feedstock?branchName=master&jobName=osx&configuration=osx_arrow_cpp0.15.0numpy1.16pyarrow0.15.0python3.6" alt="variant">
                 </a>
               </td>
             </tr><tr>
-              <td>osx_arrow_cpp0.15.0numpy0.16pyarrow0.15.0python3.7</td>
+              <td>osx_arrow_cpp0.15.0numpy1.16pyarrow0.15.0python3.7</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=2098&branchName=master">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/turbodbc-feedstock?branchName=master&jobName=osx&configuration=osx_arrow_cpp0.15.0numpy0.16pyarrow0.15.0python3.7" alt="variant">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/turbodbc-feedstock?branchName=master&jobName=osx&configuration=osx_arrow_cpp0.15.0numpy1.16pyarrow0.15.0python3.7" alt="variant">
                 </a>
               </td>
             </tr><tr>
-              <td>win_arrow_cpp0.14.1c_compilervs2015cxx_compilervs2015numpy0.14pyarrow0.14.1python3.6</td>
+              <td>win_arrow_cpp0.14.1c_compilervs2015cxx_compilervs2015numpy1.14pyarrow0.14.1python3.6</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=2098&branchName=master">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/turbodbc-feedstock?branchName=master&jobName=win&configuration=win_arrow_cpp0.14.1c_compilervs2015cxx_compilervs2015numpy0.14pyarrow0.14.1python3.6" alt="variant">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/turbodbc-feedstock?branchName=master&jobName=win&configuration=win_arrow_cpp0.14.1c_compilervs2015cxx_compilervs2015numpy1.14pyarrow0.14.1python3.6" alt="variant">
                 </a>
               </td>
             </tr><tr>
-              <td>win_arrow_cpp0.14.1c_compilervs2015cxx_compilervs2015numpy0.14pyarrow0.14.1python3.7</td>
+              <td>win_arrow_cpp0.14.1c_compilervs2015cxx_compilervs2015numpy1.14pyarrow0.14.1python3.7</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=2098&branchName=master">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/turbodbc-feedstock?branchName=master&jobName=win&configuration=win_arrow_cpp0.14.1c_compilervs2015cxx_compilervs2015numpy0.14pyarrow0.14.1python3.7" alt="variant">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/turbodbc-feedstock?branchName=master&jobName=win&configuration=win_arrow_cpp0.14.1c_compilervs2015cxx_compilervs2015numpy1.14pyarrow0.14.1python3.7" alt="variant">
                 </a>
               </td>
             </tr><tr>
-              <td>win_arrow_cpp0.15.0c_compilervs2015cxx_compilervs2015numpy0.16pyarrow0.15.0python3.6</td>
+              <td>win_arrow_cpp0.15.0c_compilervs2015cxx_compilervs2015numpy1.16pyarrow0.15.0python3.6</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=2098&branchName=master">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/turbodbc-feedstock?branchName=master&jobName=win&configuration=win_arrow_cpp0.15.0c_compilervs2015cxx_compilervs2015numpy0.16pyarrow0.15.0python3.6" alt="variant">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/turbodbc-feedstock?branchName=master&jobName=win&configuration=win_arrow_cpp0.15.0c_compilervs2015cxx_compilervs2015numpy1.16pyarrow0.15.0python3.6" alt="variant">
                 </a>
               </td>
             </tr><tr>
-              <td>win_arrow_cpp0.15.0c_compilervs2015cxx_compilervs2015numpy0.16pyarrow0.15.0python3.7</td>
+              <td>win_arrow_cpp0.15.0c_compilervs2015cxx_compilervs2015numpy1.16pyarrow0.15.0python3.7</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=2098&branchName=master">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/turbodbc-feedstock?branchName=master&jobName=win&configuration=win_arrow_cpp0.15.0c_compilervs2015cxx_compilervs2015numpy0.16pyarrow0.15.0python3.7" alt="variant">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/turbodbc-feedstock?branchName=master&jobName=win&configuration=win_arrow_cpp0.15.0c_compilervs2015cxx_compilervs2015numpy1.16pyarrow0.15.0python3.7" alt="variant">
                 </a>
               </td>
             </tr>

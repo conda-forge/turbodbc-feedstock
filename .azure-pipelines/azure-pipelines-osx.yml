@@ -10,23 +10,23 @@ jobs:
   strategy:
     maxParallel: 8
     matrix:
-      osx_arrow_cpp0.14.1numpy0.14pyarrow0.14.1python2.7:
-        CONFIG: osx_arrow_cpp0.14.1numpy0.14pyarrow0.14.1python2.7
+      osx_arrow_cpp0.14.1numpy1.14pyarrow0.14.1python2.7:
+        CONFIG: osx_arrow_cpp0.14.1numpy1.14pyarrow0.14.1python2.7
         UPLOAD_PACKAGES: True
-      osx_arrow_cpp0.14.1numpy0.14pyarrow0.14.1python3.6:
-        CONFIG: osx_arrow_cpp0.14.1numpy0.14pyarrow0.14.1python3.6
+      osx_arrow_cpp0.14.1numpy1.14pyarrow0.14.1python3.6:
+        CONFIG: osx_arrow_cpp0.14.1numpy1.14pyarrow0.14.1python3.6
         UPLOAD_PACKAGES: True
-      osx_arrow_cpp0.14.1numpy0.14pyarrow0.14.1python3.7:
-        CONFIG: osx_arrow_cpp0.14.1numpy0.14pyarrow0.14.1python3.7
+      osx_arrow_cpp0.14.1numpy1.14pyarrow0.14.1python3.7:
+        CONFIG: osx_arrow_cpp0.14.1numpy1.14pyarrow0.14.1python3.7
         UPLOAD_PACKAGES: True
-      osx_arrow_cpp0.15.0numpy0.16pyarrow0.15.0python2.7:
-        CONFIG: osx_arrow_cpp0.15.0numpy0.16pyarrow0.15.0python2.7
+      osx_arrow_cpp0.15.0numpy1.16pyarrow0.15.0python2.7:
+        CONFIG: osx_arrow_cpp0.15.0numpy1.16pyarrow0.15.0python2.7
         UPLOAD_PACKAGES: True
-      osx_arrow_cpp0.15.0numpy0.16pyarrow0.15.0python3.6:
-        CONFIG: osx_arrow_cpp0.15.0numpy0.16pyarrow0.15.0python3.6
+      osx_arrow_cpp0.15.0numpy1.16pyarrow0.15.0python3.6:
+        CONFIG: osx_arrow_cpp0.15.0numpy1.16pyarrow0.15.0python3.6
         UPLOAD_PACKAGES: True
-      osx_arrow_cpp0.15.0numpy0.16pyarrow0.15.0python3.7:
-        CONFIG: osx_arrow_cpp0.15.0numpy0.16pyarrow0.15.0python3.7
+      osx_arrow_cpp0.15.0numpy1.16pyarrow0.15.0python3.7:
+        CONFIG: osx_arrow_cpp0.15.0numpy1.16pyarrow0.15.0python3.7
         UPLOAD_PACKAGES: True
 
   steps:
