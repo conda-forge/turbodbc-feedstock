@@ -1,0 +1,19 @@
+numpy:
+   - '0.14'
+   - '0.16'
+pyarrow:
+   - '0.14.1'
+   - '0.15.0'
+arrow_cpp: 
+   - '0.14.1'
+   - '0.15.0'
+zip_keys:
+   - - pyarrow
+     - arrow_cpp
+     - numpy
+pin_run_as_build:
+   pyarrow:
+     max_pin: x.x
+   arrow_cpp:
+     max_pin: x.x    
+

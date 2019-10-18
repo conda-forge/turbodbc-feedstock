@@ -1,32 +1,42 @@
-MACOSX_DEPLOYMENT_TARGET:
-- '10.9'
+arrow_cpp:
+- 0.15.0
 boost:
 - 1.70.0
 boost_cpp:
 - 1.70.0
 c_compiler:
-- clang
+- gcc
 c_compiler_version:
-- '4'
+- '7'
 channel_sources:
 - conda-forge,defaults
 channel_targets:
 - conda-forge main
 cxx_compiler:
-- clangxx
+- gxx
 cxx_compiler_version:
-- '4'
-macos_machine:
-- x86_64-apple-darwin13.4.0
-macos_min_version:
-- '10.9'
+- '7'
+docker_image:
+- condaforge/linux-anvil-comp7
+numpy:
+- '0.16'
 pin_run_as_build:
+  arrow_cpp:
+    max_pin: x.x
   boost:
     max_pin: x.x.x
   boost-cpp:
     max_pin: x.x.x
+  pyarrow:
+    max_pin: x.x
   python:
     min_pin: x.x
     max_pin: x.x
+pyarrow:
+- 0.15.0
 python:
 - '3.7'
+zip_keys:
+- - pyarrow
+  - arrow_cpp
+  - numpy

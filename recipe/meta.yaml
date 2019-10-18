@@ -12,7 +12,7 @@ source:
   sha256: {{ sha256 }}
 
 build:
-  number: 0
+  number: 1
   # turbodbc already has set the correct RPATHs, conda relocation breaks it
   # so skip it.
   binary_relocation: False
@@ -27,23 +27,23 @@ requirements:
   host:
     - boost
     - boost-cpp
-    - numpy 1.14.*
+    - numpy
     - pybind11
     - python
     - setuptools
     - six
     - unixodbc  # [unix]
-    - arrow-cpp 0.14.*
-    - pyarrow 0.14.*
+    - arrow-cpp
+    - pyarrow
   run:
     - python
     # pkg_resources is used to determine the package version
     - setuptools
     - six
-    - {{ pin_compatible('numpy', lower_bound='1.14') }}
+    - {{ pin_compatible('numpy', lower_bound=numpy) }}
     - unixodbc  # [unix]
-    - arrow-cpp 0.14.*
-    - pyarrow 0.14.*
+    - arrow-cpp
+    - pyarrow
 
 test:
   imports:
