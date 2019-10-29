@@ -1,6 +1,6 @@
 {% set name = "turbodbc" %}
-{% set version = "3.2.0" %}
-{% set sha256 = "577db47061ca1c9c958c24e096edf03f4da63180a813a7a9892b9ed4d6a7a90a" %}
+{% set version = "3.3.0" %}
+{% set sha256 = "4e1fce94926f756bfec9d2dcc54d4187fad60ac352617ed805c6356ee7ae0ece" %}
 
 package:
   name: {{ name|lower }}
