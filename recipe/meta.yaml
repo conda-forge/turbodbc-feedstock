@@ -1,6 +1,6 @@
 {% set name = "turbodbc" %}
-{% set version = "3.2.0" %}
-{% set sha256 = "577db47061ca1c9c958c24e096edf03f4da63180a813a7a9892b9ed4d6a7a90a" %}
+{% set version = "3.3.0" %}
+{% set sha256 = "4e1fce94926f756bfec9d2dcc54d4187fad60ac352617ed805c6356ee7ae0ece" %}
 
 package:
   name: {{ name|lower }}
@@ -27,23 +27,23 @@ requirements:
   host:
     - boost
     - boost-cpp
-    - numpy 1.14.*
+    - numpy 1.16.*
     - pybind11
     - python
     - setuptools
     - six
     - unixodbc  # [unix]
-    - arrow-cpp 0.14.*
-    - pyarrow 0.14.*
+    - arrow-cpp 0.15.*
+    - pyarrow 0.15.*
   run:
     - python
     # pkg_resources is used to determine the package version
     - setuptools
     - six
-    - {{ pin_compatible('numpy', lower_bound='1.14') }}
+    - {{ pin_compatible('numpy', lower_bound='1.16') }}
     - unixodbc  # [unix]
-    - arrow-cpp 0.14.*
-    - pyarrow 0.14.*
+    - arrow-cpp 0.15.*
+    - pyarrow 0.15.*
 
 test:
   imports:
