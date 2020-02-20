@@ -5,7 +5,7 @@ arrow_cpp:
 boost:
 - 1.70.0
 boost_cpp:
-- 1.70.0
+- '1.72'
 c_compiler:
 - clang
 c_compiler_version:
