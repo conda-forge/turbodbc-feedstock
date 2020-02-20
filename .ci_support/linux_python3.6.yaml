@@ -1,5 +1,5 @@
 arrow_cpp:
-- 0.15.1
+- '0.16'
 boost:
 - 1.70.0
 boost_cpp:
