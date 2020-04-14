@@ -1,0 +1,16 @@
+diff --git a/python/turbodbc/__init__.py b/python/turbodbc/__init__.py
+index bd14933..53b63c6 100644
+--- a/python/turbodbc/__init__.py
++++ b/python/turbodbc/__init__.py
+@@ -1,5 +1,11 @@
+ from __future__ import absolute_import
+ 
++import platform
++import sys
++if sys.version_info >= (3, 8) and "Windows" in platform.system():
++    import os
++    os.add_dll_directory(os.path.dirname(os.path.dirname(os.path.realpath(__file__))))
++
+ from .api_constants import apilevel, threadsafety, paramstyle
+ from .connect import connect
+ from .constructors import Date, Time, Timestamp
