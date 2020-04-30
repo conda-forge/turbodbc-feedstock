@@ -1,7 +1,7 @@
 MACOSX_DEPLOYMENT_TARGET:
 - '10.9'
 arrow_cpp:
-- '0.16'
+- 0.17.0
 boost:
 - '1.72'
 boost_cpp:
@@ -31,4 +31,4 @@ pin_run_as_build:
     min_pin: x.x
     max_pin: x.x
 python:
-- '3.7'
+- 3.7.* *_cpython
