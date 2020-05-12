@@ -1,23 +1,19 @@
 {% set name = "turbodbc" %}
-{% set version = "3.3.0" %}
-{% set sha256 = "4e1fce94926f756bfec9d2dcc54d4187fad60ac352617ed805c6356ee7ae0ece" %}
+{% set version = "4.0.0" %}
 
 package:
   name: {{ name|lower }}
   version: {{ version }}
 
 source:
-  fn: {{ name }}-{{ version }}.tar.gz
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: {{ sha256 }}
+  sha256: 3ea4dd75cde263f9143dab360c3ede9125aacc91da71b144dbe96b30d7e2590d
 
 build:
-  number: 4
+  number: 0
   # turbodbc already has set the correct RPATHs, conda relocation breaks it
   # so skip it.
   binary_relocation: False
-  skip: true  # [win32]
-  skip: true  # [win and py<35]
   # Python 3.8 fails due to linking errors
   skip: true  # [win and py==38]
 
