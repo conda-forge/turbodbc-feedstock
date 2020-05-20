@@ -10,7 +10,7 @@ source:
   sha256: 3ea4dd75cde263f9143dab360c3ede9125aacc91da71b144dbe96b30d7e2590d
 
 build:
-  number: 0
+  number: 1
   # turbodbc already has set the correct RPATHs, conda relocation breaks it
   # so skip it.
   binary_relocation: False
@@ -43,10 +43,14 @@ requirements:
     - pyarrow
 
 test:
+  requires:
+    - pip
   imports:
     - turbodbc
     - turbodbc_arrow_support
   commands:
+    # We need to remove pybind11 from the runtime dependencies for this to suceed. 
+    # - pip check
     - conda inspect linkages -p $PREFIX $PKG_NAME  # [linux]
     - conda inspect objects -p $PREFIX $PKG_NAME  # [osx]
 
