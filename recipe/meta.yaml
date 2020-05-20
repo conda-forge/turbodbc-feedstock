@@ -43,10 +43,13 @@ requirements:
     - pyarrow
 
 test:
+  requires:
+    - pip
   imports:
     - turbodbc
     - turbodbc_arrow_support
   commands:
+    - pip check
     - conda inspect linkages -p $PREFIX $PKG_NAME  # [linux]
     - conda inspect objects -p $PREFIX $PKG_NAME  # [osx]
 
