@@ -1,5 +1,5 @@
 {% set name = "turbodbc" %}
-{% set version = "4.0.0" %}
+{% set version = "4.1.1" %}
 
 package:
   name: {{ name|lower }}
@@ -7,13 +7,13 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: 3ea4dd75cde263f9143dab360c3ede9125aacc91da71b144dbe96b30d7e2590d
+  sha256: 68c03b41cc4bd845d189130d7c92c103b63bf587dc02783fea788b062fab6f6c
 
 build:
-  number: 1
+  number: 0
   # turbodbc already has set the correct RPATHs, conda relocation breaks it
   # so skip it.
-  binary_relocation: False
+  binary_relocation: false
   # Python 3.8 fails due to linking errors
   skip: true  # [win and py==38]
 
@@ -58,7 +58,7 @@ about:
   home: https://github.com/blue-yonder/turbodbc
   license: MIT
   license_file: LICENSE
-  summary: 'access relational databases via the Open Database Connectivity (ODBC) interface'
+  summary: access relational databases via the Open Database Connectivity (ODBC) interface
   description: |
     Turbodbc is a Python module to access relational databases via the Open
     Database Connectivity (ODBC) interface. In addition to complying with the
