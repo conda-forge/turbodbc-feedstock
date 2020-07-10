@@ -5,7 +5,7 @@ Home: https://github.com/blue-yonder/turbodbc
 
 Package license: MIT
 
-Feedstock license: BSD 3-Clause
+Feedstock license: BSD-3-Clause
 
 Summary: access relational databases via the Open Database Connectivity (ODBC) interface
 
