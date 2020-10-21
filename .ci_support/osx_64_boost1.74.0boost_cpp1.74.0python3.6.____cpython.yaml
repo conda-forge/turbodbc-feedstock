@@ -1,7 +1,7 @@
 MACOSX_DEPLOYMENT_TARGET:
 - '10.9'
 arrow_cpp:
-- 1.0.1
+- 2.0.0
 boost:
 - 1.74.0
 boost_cpp:
@@ -35,3 +35,5 @@ target_platform:
 zip_keys:
 - - boost
   - boost_cpp
+- - c_compiler_version
+  - cxx_compiler_version
