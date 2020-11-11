@@ -1,9 +1,9 @@
 arrow_cpp:
 - 2.0.0
 boost:
-- 1.72.0
+- 1.74.0
 boost_cpp:
-- 1.72.0
+- 1.74.0
 c_compiler:
 - gcc
 c_compiler_version:
@@ -20,6 +20,8 @@ cxx_compiler_version:
 - '7'
 docker_image:
 - quay.io/condaforge/linux-anvil-comp7
+numpy:
+- '1.16'
 pin_run_as_build:
   boost:
     max_pin: x.x.x
@@ -37,3 +39,5 @@ zip_keys:
   - boost_cpp
 - - c_compiler_version
   - cxx_compiler_version
+- - numpy
+  - python
