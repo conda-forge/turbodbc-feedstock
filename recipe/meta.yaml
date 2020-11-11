@@ -10,12 +10,12 @@ source:
   sha256: 68c03b41cc4bd845d189130d7c92c103b63bf587dc02783fea788b062fab6f6c
 
 build:
-  number: 4
+  number: 5
   # turbodbc already has set the correct RPATHs, conda relocation breaks it
   # so skip it.
   binary_relocation: false
-  # Python 3.8 fails due to linking errors
-  skip: true  # [win and py==38]
+  # Python 3.8+ fails due to linking errors
+  skip: true  # [win and py>=38]
 
 requirements:
   build:
@@ -25,7 +25,7 @@ requirements:
   host:
     - boost
     - boost-cpp
-    - numpy 1.16.*
+    - numpy
     - pybind11
     - python
     - setuptools
@@ -38,7 +38,7 @@ requirements:
     # pkg_resources is used to determine the package version
     - setuptools
     - six
-    - {{ pin_compatible('numpy', lower_bound='1.16') }}
+    - {{ pin_compatible('numpy') }}
     - unixodbc  # [unix]
     - pyarrow
 
