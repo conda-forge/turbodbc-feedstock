@@ -54,6 +54,13 @@ Current build status
                 </a>
               </td>
             </tr><tr>
+              <td>linux_64_boost1.72.0boost_cpp1.72.0python3.9.____cpython</td>
+              <td>
+                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=2098&branchName=master">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/turbodbc-feedstock?branchName=master&jobName=linux&configuration=linux_64_boost1.72.0boost_cpp1.72.0python3.9.____cpython" alt="variant">
+                </a>
+              </td>
+            </tr><tr>
               <td>linux_64_boost1.74.0boost_cpp1.74.0python3.6.____cpython</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=2098&branchName=master">
@@ -72,6 +79,13 @@ Current build status
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=2098&branchName=master">
                   <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/turbodbc-feedstock?branchName=master&jobName=linux&configuration=linux_64_boost1.74.0boost_cpp1.74.0python3.8.____cpython" alt="variant">
+                </a>
+              </td>
+            </tr><tr>
+              <td>linux_64_boost1.74.0boost_cpp1.74.0python3.9.____cpython</td>
+              <td>
+                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=2098&branchName=master">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/turbodbc-feedstock?branchName=master&jobName=linux&configuration=linux_64_boost1.74.0boost_cpp1.74.0python3.9.____cpython" alt="variant">
                 </a>
               </td>
             </tr><tr>
@@ -96,6 +110,13 @@ Current build status
                 </a>
               </td>
             </tr><tr>
+              <td>osx_64_boost1.72.0boost_cpp1.72.0python3.9.____cpython</td>
+              <td>
+                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=2098&branchName=master">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/turbodbc-feedstock?branchName=master&jobName=osx&configuration=osx_64_boost1.72.0boost_cpp1.72.0python3.9.____cpython" alt="variant">
+                </a>
+              </td>
+            </tr><tr>
               <td>osx_64_boost1.74.0boost_cpp1.74.0python3.6.____cpython</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=2098&branchName=master">
@@ -117,6 +138,13 @@ Current build status
                 </a>
               </td>
             </tr><tr>
+              <td>osx_64_boost1.74.0boost_cpp1.74.0python3.9.____cpython</td>
+              <td>
+                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=2098&branchName=master">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/turbodbc-feedstock?branchName=master&jobName=osx&configuration=osx_64_boost1.74.0boost_cpp1.74.0python3.9.____cpython" alt="variant">
+                </a>
+              </td>
+            </tr><tr>
               <td>win_64_boost1.72.0boost_cpp1.72.0python3.6.____cpython</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=2098&branchName=master">
@@ -131,6 +159,13 @@ Current build status
                 </a>
               </td>
             </tr><tr>
+              <td>win_64_boost1.72.0boost_cpp1.72.0python3.9.____cpython</td>
+              <td>
+                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=2098&branchName=master">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/turbodbc-feedstock?branchName=master&jobName=win&configuration=win_64_boost1.72.0boost_cpp1.72.0python3.9.____cpython" alt="variant">
+                </a>
+              </td>
+            </tr><tr>
               <td>win_64_boost1.74.0boost_cpp1.74.0python3.6.____cpython</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=2098&branchName=master">
@@ -142,6 +177,13 @@ Current build status
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=2098&branchName=master">
                   <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/turbodbc-feedstock?branchName=master&jobName=win&configuration=win_64_boost1.74.0boost_cpp1.74.0python3.7.____cpython" alt="variant">
+                </a>
+              </td>
+            </tr><tr>
+              <td>win_64_boost1.74.0boost_cpp1.74.0python3.9.____cpython</td>
+              <td>
+                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=2098&branchName=master">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/turbodbc-feedstock?branchName=master&jobName=win&configuration=win_64_boost1.74.0boost_cpp1.74.0python3.9.____cpython" alt="variant">
                 </a>
               </td>
             </tr>
