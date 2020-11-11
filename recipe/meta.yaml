@@ -25,7 +25,7 @@ requirements:
   host:
     - boost
     - boost-cpp
-    - numpy 1.16.*
+    - numpy
     - pybind11
     - python
     - setuptools
@@ -38,7 +38,7 @@ requirements:
     # pkg_resources is used to determine the package version
     - setuptools
     - six
-    - {{ pin_compatible('numpy', lower_bound='1.16') }}
+    - {{ pin_compatible('numpy') }}
     - unixodbc  # [unix]
     - pyarrow
 
