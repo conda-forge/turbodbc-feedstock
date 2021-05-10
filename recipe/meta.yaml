@@ -15,7 +15,7 @@ build:
   # so skip it.
   binary_relocation: false
   # Python 3.8+ fails due to linking errors
-  skip: true  # [win and py>=38]
+  skip: true  # [(win and py>=38) or py<37]
 
 requirements:
   build:
