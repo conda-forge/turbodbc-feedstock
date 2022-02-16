@@ -556,6 +556,7 @@ Feedstock Maintainers
 
 * [@MathMagique](https://github.com/MathMagique/)
 * [@fjetter](https://github.com/fjetter/)
+* [@ldacey](https://github.com/ldacey/)
 * [@wesm](https://github.com/wesm/)
 * [@xhochy](https://github.com/xhochy/)
 
