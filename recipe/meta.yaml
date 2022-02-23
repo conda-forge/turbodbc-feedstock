@@ -52,8 +52,7 @@ test:
     - turbodbc
     - turbodbc_arrow_support
   commands:
-    # We need to remove pybind11 from the runtime dependencies for this to suceed. 
-    # - pip check
+    - pip check
 
 about:
   home: https://github.com/blue-yonder/turbodbc
