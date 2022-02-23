@@ -35,6 +35,7 @@ requirements:
     - unixodbc  # [unix]
     - arrow-cpp
     - pyarrow
+    - wheel
   run:
     - python
     # pkg_resources is used to determine the package version
