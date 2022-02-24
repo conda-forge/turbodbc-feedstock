@@ -8,9 +8,6 @@ jobs:
     vmImage: windows-2019
   strategy:
     matrix:
-      win_64_arrow_cpp4.0.1numpy1.18python3.7.____cpython:
-        CONFIG: win_64_arrow_cpp4.0.1numpy1.18python3.7.____cpython
-        UPLOAD_PACKAGES: 'True'
       win_64_arrow_cpp4.0.1numpy1.18python3.8.____cpython:
         CONFIG: win_64_arrow_cpp4.0.1numpy1.18python3.8.____cpython
         UPLOAD_PACKAGES: 'True'
@@ -19,9 +16,6 @@ jobs:
         UPLOAD_PACKAGES: 'True'
       win_64_arrow_cpp4.0.1numpy1.21python3.10.____cpython:
         CONFIG: win_64_arrow_cpp4.0.1numpy1.21python3.10.____cpython
-        UPLOAD_PACKAGES: 'True'
-      win_64_arrow_cpp5.0.0numpy1.18python3.7.____cpython:
-        CONFIG: win_64_arrow_cpp5.0.0numpy1.18python3.7.____cpython
         UPLOAD_PACKAGES: 'True'
       win_64_arrow_cpp5.0.0numpy1.18python3.8.____cpython:
         CONFIG: win_64_arrow_cpp5.0.0numpy1.18python3.8.____cpython
@@ -32,9 +26,6 @@ jobs:
       win_64_arrow_cpp5.0.0numpy1.21python3.10.____cpython:
         CONFIG: win_64_arrow_cpp5.0.0numpy1.21python3.10.____cpython
         UPLOAD_PACKAGES: 'True'
-      win_64_arrow_cpp6.0.1numpy1.18python3.7.____cpython:
-        CONFIG: win_64_arrow_cpp6.0.1numpy1.18python3.7.____cpython
-        UPLOAD_PACKAGES: 'True'
       win_64_arrow_cpp6.0.1numpy1.18python3.8.____cpython:
         CONFIG: win_64_arrow_cpp6.0.1numpy1.18python3.8.____cpython
         UPLOAD_PACKAGES: 'True'
@@ -43,9 +34,6 @@ jobs:
         UPLOAD_PACKAGES: 'True'
       win_64_arrow_cpp6.0.1numpy1.21python3.10.____cpython:
         CONFIG: win_64_arrow_cpp6.0.1numpy1.21python3.10.____cpython
-        UPLOAD_PACKAGES: 'True'
-      win_64_arrow_cpp7.0.0numpy1.18python3.7.____cpython:
-        CONFIG: win_64_arrow_cpp7.0.0numpy1.18python3.7.____cpython
         UPLOAD_PACKAGES: 'True'
       win_64_arrow_cpp7.0.0numpy1.18python3.8.____cpython:
         CONFIG: win_64_arrow_cpp7.0.0numpy1.18python3.8.____cpython
@@ -56,7 +44,6 @@ jobs:
       win_64_arrow_cpp7.0.0numpy1.21python3.10.____cpython:
         CONFIG: win_64_arrow_cpp7.0.0numpy1.21python3.10.____cpython
         UPLOAD_PACKAGES: 'True'
-    maxParallel: 13
   timeoutInMinutes: 360
   variables:
     CONDA_BLD_PATH: D:\\bld\\
@@ -95,10 +82,9 @@ jobs:
 
       condition: contains(variables['CONFIG'], 'vs2008')
       displayName: Patch vs2008 (if needed)
-
     - task: CondaEnvironment@1
       inputs:
-        packageSpecs: 'python=3.9 conda-build conda "conda-forge-ci-setup=3" pip boa' # Optional
+        packageSpecs: 'python=3.9 conda-build conda pip boa conda-forge-ci-setup=3' # Optional
         installOptions: "-c conda-forge"
         updateConda: true
       displayName: Install conda-build and activate environment
