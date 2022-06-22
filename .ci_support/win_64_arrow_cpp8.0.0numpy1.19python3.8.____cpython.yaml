@@ -1,5 +1,5 @@
 arrow_cpp:
-- 6.0.1
+- 8.0.0
 boost:
 - 1.74.0
 boost_cpp:
@@ -13,7 +13,7 @@ channel_targets:
 cxx_compiler:
 - vs2017
 numpy:
-- '1.18'
+- '1.19'
 pin_run_as_build:
   boost:
     max_pin: x.x.x
