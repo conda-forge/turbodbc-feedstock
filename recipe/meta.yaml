@@ -1,5 +1,5 @@
 {% set name = "turbodbc" %}
-{% set version = "4.5.4" %}
+{% set version = "4.5.5" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: ceb717749cc85f845d2564bfdb993480428bbc32bf80464c1ddb34a1b419ae7f
+  sha256: dd019f51be83c48903657088cab9afa353cf4c7c3afa6411c1c0af43cbf01c54
 
 build:
   number: 0
