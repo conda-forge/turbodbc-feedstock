@@ -1,5 +1,5 @@
 {% set name = "turbodbc" %}
-{% set version = "4.5.5" %}
+{% set version = "4.5.6" %}
 
 package:
   name: {{ name|lower }}
@@ -7,10 +7,10 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: dd019f51be83c48903657088cab9afa353cf4c7c3afa6411c1c0af43cbf01c54
+  sha256: d2af28ac36ea316ee4f8ef4d839ea3e3a9dde188484d71bb8c0c1c75b1d10030
 
 build:
-  number: 3
+  number: 0
   skip: true  # [py<38]
   # turbodbc already has set the correct RPATHs, conda relocation breaks it
   # so skip it.
