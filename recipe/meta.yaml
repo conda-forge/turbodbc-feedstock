@@ -37,7 +37,6 @@ requirements:
     - pybind11
     - python
     - setuptools
-    - six
     - unixodbc  # [unix]
     - arrow-cpp
     - pyarrow
@@ -45,7 +44,6 @@ requirements:
     - python
     # pkg_resources is used to determine the package version
     - setuptools
-    - six
     - {{ pin_compatible('numpy') }}
     - unixodbc  # [unix]
     - pyarrow
