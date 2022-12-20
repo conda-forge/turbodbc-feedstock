@@ -9,6 +9,7 @@ source:
   sha256: d2af28ac36ea316ee4f8ef4d839ea3e3a9dde188484d71bb8c0c1c75b1d10030
   patches:
     - patches/0001-set-C-17-also-on-windows.patch
+    - patches/0002-set-D_LIBCPP_DISABLE_AVAILABILITY-for-osx-in-setup.p.patch
 
 build:
   number: 1

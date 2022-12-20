@@ -1,7 +1,7 @@
 From c40192257cc068a252b96319b2ce2650bf4b9e3f Mon Sep 17 00:00:00 2001
 From: "H. Vetinari" <h.vetinari@gmx.com>
 Date: Tue, 20 Dec 2022 11:33:26 +1100
-Subject: [PATCH] set C++17 also on windows
+Subject: [PATCH 1/2] set C++17 also on windows
 
 ---
  setup.py | 1 +

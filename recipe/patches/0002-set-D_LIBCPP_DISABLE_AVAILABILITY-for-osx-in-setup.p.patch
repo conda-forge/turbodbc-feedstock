@@ -1,0 +1,25 @@
+From 90ab78b11a30f91edfb39b6e612da08eb83311c8 Mon Sep 17 00:00:00 2001
+From: "H. Vetinari" <h.vetinari@gmx.com>
+Date: Tue, 20 Dec 2022 12:01:30 +1100
+Subject: [PATCH 2/2] set -D_LIBCPP_DISABLE_AVAILABILITY for osx in setup.py
+
+---
+ setup.py | 2 ++
+ 1 file changed, 2 insertions(+)
+
+diff --git a/setup.py b/setup.py
+index 34b16ac..98fec3b 100644
+--- a/setup.py
++++ b/setup.py
+@@ -85,6 +85,8 @@ if sys.platform == "darwin":
+     extra_compile_args.append("--std=c++17")
+     extra_compile_args.append("--stdlib=libc++")
+     extra_compile_args.append("-mmacosx-version-min=10.9")
++    # See https://conda-forge.org/docs/maintainer/knowledge_base.html#newer-c-features-with-old-sdk
++    extra_compile_args.append("-D_LIBCPP_DISABLE_AVAILABILITY")
+     hidden_visibility_args.append("-fvisibility=hidden")
+     include_dirs.append(os.getenv("UNIXODBC_INCLUDE_DIR", "/usr/local/include/"))
+     library_dirs.append(os.getenv("UNIXODBC_LIBRARY_DIR", "/usr/local/lib/"))
+-- 
+2.38.1.windows.1
+
