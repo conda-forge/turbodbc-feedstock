@@ -1,0 +1,24 @@
+From c40192257cc068a252b96319b2ce2650bf4b9e3f Mon Sep 17 00:00:00 2001
+From: "H. Vetinari" <h.vetinari@gmx.com>
+Date: Tue, 20 Dec 2022 11:33:26 +1100
+Subject: [PATCH] set C++17 also on windows
+
+---
+ setup.py | 1 +
+ 1 file changed, 1 insertion(+)
+
+diff --git a/setup.py b/setup.py
+index 21343bb..34b16ac 100644
+--- a/setup.py
++++ b/setup.py
+@@ -98,6 +98,7 @@ if sys.platform == "darwin":
+     base_library_link_args.append("-dynamiclib")
+     odbclib = "odbc"
+ elif sys.platform == "win32":
++    extra_compile_args.append("/std:c++17")
+     extra_compile_args.append("-DNOMINMAX")
+     if "BOOST_ROOT" in os.environ:
+         include_dirs.append(os.getenv("BOOST_ROOT"))
+-- 
+2.38.1.windows.1
+

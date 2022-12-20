@@ -8,6 +8,8 @@ package:
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
   sha256: d2af28ac36ea316ee4f8ef4d839ea3e3a9dde188484d71bb8c0c1c75b1d10030
+  patches:
+    - patches/0001-set-C-17-also-on-windows.patch
 
 build:
   number: 1
