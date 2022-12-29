@@ -14,9 +14,10 @@ source:
 build:
   number: 1
   skip: true  # [py<38]
-  # turbodbc already has set the correct RPATHs, conda relocation breaks it
-  # so skip it.
-  binary_relocation: false  # [unix]
+  # Set rpaths we need to link against libarrow_python.so, but it is located in site-packages
+  rpaths:
+    - lib/
+    - {{ SP_DIR }}/pyarrow
 
 requirements:
   build:
