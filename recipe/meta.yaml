@@ -10,6 +10,7 @@ source:
   patches:
     - patches/0001-set-C-17-also-on-windows.patch
     - patches/0002-set-D_LIBCPP_DISABLE_AVAILABILITY-for-osx-in-setup.p.patch
+    - 0001-Add-pyarrow-library-dirs-to-PATH.patch
 
 build:
   number: 1

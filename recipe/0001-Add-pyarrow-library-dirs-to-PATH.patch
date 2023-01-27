@@ -1,0 +1,32 @@
+From 253c1edbe91b45e444f369b48a295c63205844e5 Mon Sep 17 00:00:00 2001
+From: "Uwe L. Korn" <uwe.korn@quantco.com>
+Date: Fri, 27 Jan 2023 14:43:16 +0100
+Subject: [PATCH] Add pyarrow library dirs to PATH
+
+---
+ turbodbc/cursor.py | 9 +++++++++
+ 1 file changed, 9 insertions(+)
+
+diff --git a/turbodbc/cursor.py b/turbodbc/cursor.py
+index 5b640de..1dc79fd 100644
+--- a/turbodbc/cursor.py
++++ b/turbodbc/cursor.py
+@@ -28,6 +28,15 @@ def _has_numpy_support() -> bool:
+ 
+ 
+ def _has_arrow_support() -> bool:
++    try:
++        import pyarrow  # noqa: F401
++        import os
++
++        for lib_dir in pyarrow.get_library_dirs():
++            os.add_dll_directory(lib_dir)
++    except:
++        return False
++
+     try:
+         import turbodbc_arrow_support  # noqa: F401
+ 
+-- 
+2.37.1 (Apple Git-137.1)
+
