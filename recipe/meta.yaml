@@ -57,7 +57,7 @@ test:
     - turbodbc
   commands:
     # We need a two staged import to have the correct library dirs added.
-    - python -c "import turbodbc.cursor; import turbodbc_arrow_support"
+    - python -c "import turbodbc.cursor; turbodbc.cursor._has_arrow_support(); import turbodbc_arrow_support"
     # We need to remove pybind11 from the runtime dependencies for this to suceed. 
     # - pip check
 
