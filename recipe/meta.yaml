@@ -22,7 +22,7 @@ requirements:
     - cross-python_{{ target_platform }}     # [build_platform != target_platform]
     - cython                                 # [build_platform != target_platform]
     - numpy                                  # [build_platform != target_platform]
-    - arrow-cpp                              # [build_platform != target_platform]
+    - libarrow                               # [build_platform != target_platform]
     - pyarrow                                # [build_platform != target_platform]
     - cmake
     - {{ compiler('c') }}
@@ -37,7 +37,7 @@ requirements:
     - setuptools
     - six
     - unixodbc  # [unix]
-    - arrow-cpp
+    - libarrow
     - pyarrow
   run:
     - python
