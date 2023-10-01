@@ -29,7 +29,6 @@ requirements:
     - {{ compiler('cxx') }}
   host:
     - pip
-    - libboost-python-devel
     - libboost-headers
     - numpy
     - pybind11
