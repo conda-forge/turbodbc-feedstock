@@ -10,8 +10,8 @@ source:
   sha256: ec867d9ceaaf615fc4a26adc3122454bbb2fb936ac9e3b3c3bb0e2bc6d068dcb
 
 build:
-  number: 2
-  skip: true  # [py<39]
+  number: 3
+  skip: true  # [py<39 or (not win)]
   # turbodbc already has set the correct RPATHs, conda relocation breaks it
   # so skip it.
   binary_relocation: false
@@ -25,8 +25,7 @@ requirements:
     - libarrow                               # [build_platform != target_platform]
     - pyarrow                                # [build_platform != target_platform]
     - cmake
-    - {{ compiler('c') }}
-    - {{ compiler('cxx') }}
+    - {{ compiler('clang') }}
   host:
     - pip
     - libboost-headers
