@@ -1,15 +1,9 @@
-c_compiler:
-- vs2019
 channel_sources:
 - conda-forge
 channel_targets:
 - conda-forge main
-cxx_compiler:
-- vs2019
 libarrow:
 - 10.0.1
-libboost_python_devel:
-- '1.82'
 numpy:
 - '1.22'
 pin_run_as_build:
