@@ -38,6 +38,7 @@ requirements:
     - unixodbc  # [unix]
     - libarrow
     - pyarrow
+    - simdutf
   run:
     - python
     # pkg_resources is used to determine the package version
