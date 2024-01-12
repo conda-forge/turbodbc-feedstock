@@ -1,5 +1,5 @@
 {% set name = "turbodbc" %}
-{% set version = "4.9.0" %}
+{% set version = "4.10.1" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: 00d36350067d40f6d95623d1e6488d235a137796528aa607de15e4c208ad6970
+  sha256: b5c0a50cf5e48cd0868f3ffe8534d1aaf2697eeee572b91b4000c690defc6b4c
 
 build:
   number: 0
@@ -38,6 +38,7 @@ requirements:
     - unixodbc  # [unix]
     - libarrow
     - pyarrow
+    - simdutf
   run:
     - python
     # pkg_resources is used to determine the package version
