@@ -1,6 +1,11 @@
 {% set name = "turbodbc" %}
 {% set version = "4.11.0" %}
 
+# appease linter
+{% if libarrow is undefined %}
+{% set libarrow = "15" %}
+{% endif %}
+
 package:
   name: {{ name|lower }}
   version: {{ version }}
@@ -10,8 +15,12 @@ source:
   sha256: b6e4e86307d03fc6a4a62b3837396c908fbe181cfe7afdbc36e93b9a9f3cc1d7
 
 build:
-  number: 1
+  number: 2
   skip: true  # [py<39]
+  {% if libarrow.split(".")[0]|int < 13 %}
+  # python 3.12 only supported from pyarrow 13
+  skip: true  # [py==312]
+  {% endif %}
   # turbodbc already has set the correct RPATHs, conda relocation breaks it
   # so skip it.
   binary_relocation: false
