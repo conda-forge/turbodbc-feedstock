@@ -1,5 +1,5 @@
 {% set name = "turbodbc" %}
-{% set version = "4.11.0" %}
+{% set version = "4.11.1" %}
 
 # appease linter
 {% if libarrow is undefined %}
@@ -12,10 +12,10 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: b6e4e86307d03fc6a4a62b3837396c908fbe181cfe7afdbc36e93b9a9f3cc1d7
+  sha256: 1b12714cd3d26d456c639bfad42cf2eac4bb941bda6ac581cd7011bfc7e120cf
 
 build:
-  number: 2
+  number: 0
   skip: true  # [py<39]
   {% if libarrow.split(".")[0]|int < 13 %}
   # python 3.12 only supported from pyarrow 13
@@ -35,6 +35,7 @@ requirements:
     - pyarrow                                # [build_platform != target_platform]
     - cmake
     - {{ compiler('c') }}
+    - {{ stdlib("c") }}
     - {{ compiler('cxx') }}
   host:
     - pip
