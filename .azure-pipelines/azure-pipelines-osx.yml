@@ -106,6 +106,7 @@ jobs:
         UPLOAD_PACKAGES: 'True'
     maxParallel: 25
   timeoutInMinutes: 360
+  variables: {}
 
   steps:
   # TODO: Fast finish on azure pipelines?
