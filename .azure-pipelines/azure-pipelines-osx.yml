@@ -11,9 +11,6 @@ jobs:
       osx_64_libarrow12numpy1.22python3.10.____cpython:
         CONFIG: osx_64_libarrow12numpy1.22python3.10.____cpython
         UPLOAD_PACKAGES: 'True'
-      osx_64_libarrow12numpy1.22python3.9.____cpython:
-        CONFIG: osx_64_libarrow12numpy1.22python3.9.____cpython
-        UPLOAD_PACKAGES: 'True'
       osx_64_libarrow12numpy1.23python3.11.____cpython:
         CONFIG: osx_64_libarrow12numpy1.23python3.11.____cpython
         UPLOAD_PACKAGES: 'True'
@@ -22,9 +19,6 @@ jobs:
         UPLOAD_PACKAGES: 'True'
       osx_64_libarrow13numpy1.22python3.10.____cpython:
         CONFIG: osx_64_libarrow13numpy1.22python3.10.____cpython
-        UPLOAD_PACKAGES: 'True'
-      osx_64_libarrow13numpy1.22python3.9.____cpython:
-        CONFIG: osx_64_libarrow13numpy1.22python3.9.____cpython
         UPLOAD_PACKAGES: 'True'
       osx_64_libarrow13numpy1.23python3.11.____cpython:
         CONFIG: osx_64_libarrow13numpy1.23python3.11.____cpython
@@ -35,9 +29,6 @@ jobs:
       osx_64_libarrow14numpy1.22python3.10.____cpython:
         CONFIG: osx_64_libarrow14numpy1.22python3.10.____cpython
         UPLOAD_PACKAGES: 'True'
-      osx_64_libarrow14numpy1.22python3.9.____cpython:
-        CONFIG: osx_64_libarrow14numpy1.22python3.9.____cpython
-        UPLOAD_PACKAGES: 'True'
       osx_64_libarrow14numpy1.23python3.11.____cpython:
         CONFIG: osx_64_libarrow14numpy1.23python3.11.____cpython
         UPLOAD_PACKAGES: 'True'
@@ -46,9 +37,6 @@ jobs:
         UPLOAD_PACKAGES: 'True'
       osx_64_libarrow15numpy1.22python3.10.____cpython:
         CONFIG: osx_64_libarrow15numpy1.22python3.10.____cpython
-        UPLOAD_PACKAGES: 'True'
-      osx_64_libarrow15numpy1.22python3.9.____cpython:
-        CONFIG: osx_64_libarrow15numpy1.22python3.9.____cpython
         UPLOAD_PACKAGES: 'True'
       osx_64_libarrow15numpy1.23python3.11.____cpython:
         CONFIG: osx_64_libarrow15numpy1.23python3.11.____cpython
@@ -59,9 +47,6 @@ jobs:
       osx_arm64_libarrow12numpy1.22python3.10.____cpython:
         CONFIG: osx_arm64_libarrow12numpy1.22python3.10.____cpython
         UPLOAD_PACKAGES: 'True'
-      osx_arm64_libarrow12numpy1.22python3.9.____cpython:
-        CONFIG: osx_arm64_libarrow12numpy1.22python3.9.____cpython
-        UPLOAD_PACKAGES: 'True'
       osx_arm64_libarrow12numpy1.23python3.11.____cpython:
         CONFIG: osx_arm64_libarrow12numpy1.23python3.11.____cpython
         UPLOAD_PACKAGES: 'True'
@@ -70,9 +55,6 @@ jobs:
         UPLOAD_PACKAGES: 'True'
       osx_arm64_libarrow13numpy1.22python3.10.____cpython:
         CONFIG: osx_arm64_libarrow13numpy1.22python3.10.____cpython
-        UPLOAD_PACKAGES: 'True'
-      osx_arm64_libarrow13numpy1.22python3.9.____cpython:
-        CONFIG: osx_arm64_libarrow13numpy1.22python3.9.____cpython
         UPLOAD_PACKAGES: 'True'
       osx_arm64_libarrow13numpy1.23python3.11.____cpython:
         CONFIG: osx_arm64_libarrow13numpy1.23python3.11.____cpython
@@ -83,9 +65,6 @@ jobs:
       osx_arm64_libarrow14numpy1.22python3.10.____cpython:
         CONFIG: osx_arm64_libarrow14numpy1.22python3.10.____cpython
         UPLOAD_PACKAGES: 'True'
-      osx_arm64_libarrow14numpy1.22python3.9.____cpython:
-        CONFIG: osx_arm64_libarrow14numpy1.22python3.9.____cpython
-        UPLOAD_PACKAGES: 'True'
       osx_arm64_libarrow14numpy1.23python3.11.____cpython:
         CONFIG: osx_arm64_libarrow14numpy1.23python3.11.____cpython
         UPLOAD_PACKAGES: 'True'
@@ -95,16 +74,12 @@ jobs:
       osx_arm64_libarrow15numpy1.22python3.10.____cpython:
         CONFIG: osx_arm64_libarrow15numpy1.22python3.10.____cpython
         UPLOAD_PACKAGES: 'True'
-      osx_arm64_libarrow15numpy1.22python3.9.____cpython:
-        CONFIG: osx_arm64_libarrow15numpy1.22python3.9.____cpython
-        UPLOAD_PACKAGES: 'True'
       osx_arm64_libarrow15numpy1.23python3.11.____cpython:
         CONFIG: osx_arm64_libarrow15numpy1.23python3.11.____cpython
         UPLOAD_PACKAGES: 'True'
       osx_arm64_libarrow15numpy1.26python3.12.____cpython:
         CONFIG: osx_arm64_libarrow15numpy1.26python3.12.____cpython
         UPLOAD_PACKAGES: 'True'
-    maxParallel: 25
   timeoutInMinutes: 360
   variables: {}
 
