@@ -35,14 +35,14 @@ jobs:
       osx_64_libarrow15numpy1.26python3.12.____cpython:
         CONFIG: osx_64_libarrow15numpy1.26python3.12.____cpython
         UPLOAD_PACKAGES: 'True'
-      osx_64_libarrow16numpy1.22python3.10.____cpython:
-        CONFIG: osx_64_libarrow16numpy1.22python3.10.____cpython
+      osx_64_libarrow16.1numpy1.22python3.10.____cpython:
+        CONFIG: osx_64_libarrow16.1numpy1.22python3.10.____cpython
         UPLOAD_PACKAGES: 'True'
-      osx_64_libarrow16numpy1.23python3.11.____cpython:
-        CONFIG: osx_64_libarrow16numpy1.23python3.11.____cpython
+      osx_64_libarrow16.1numpy1.23python3.11.____cpython:
+        CONFIG: osx_64_libarrow16.1numpy1.23python3.11.____cpython
         UPLOAD_PACKAGES: 'True'
-      osx_64_libarrow16numpy1.26python3.12.____cpython:
-        CONFIG: osx_64_libarrow16numpy1.26python3.12.____cpython
+      osx_64_libarrow16.1numpy1.26python3.12.____cpython:
+        CONFIG: osx_64_libarrow16.1numpy1.26python3.12.____cpython
         UPLOAD_PACKAGES: 'True'
       osx_arm64_libarrow13numpy1.22python3.10.____cpython:
         CONFIG: osx_arm64_libarrow13numpy1.22python3.10.____cpython
@@ -71,14 +71,14 @@ jobs:
       osx_arm64_libarrow15numpy1.26python3.12.____cpython:
         CONFIG: osx_arm64_libarrow15numpy1.26python3.12.____cpython
         UPLOAD_PACKAGES: 'True'
-      osx_arm64_libarrow16numpy1.22python3.10.____cpython:
-        CONFIG: osx_arm64_libarrow16numpy1.22python3.10.____cpython
+      osx_arm64_libarrow16.1numpy1.22python3.10.____cpython:
+        CONFIG: osx_arm64_libarrow16.1numpy1.22python3.10.____cpython
         UPLOAD_PACKAGES: 'True'
-      osx_arm64_libarrow16numpy1.23python3.11.____cpython:
-        CONFIG: osx_arm64_libarrow16numpy1.23python3.11.____cpython
+      osx_arm64_libarrow16.1numpy1.23python3.11.____cpython:
+        CONFIG: osx_arm64_libarrow16.1numpy1.23python3.11.____cpython
         UPLOAD_PACKAGES: 'True'
-      osx_arm64_libarrow16numpy1.26python3.12.____cpython:
-        CONFIG: osx_arm64_libarrow16numpy1.26python3.12.____cpython
+      osx_arm64_libarrow16.1numpy1.26python3.12.____cpython:
+        CONFIG: osx_arm64_libarrow16.1numpy1.26python3.12.____cpython
         UPLOAD_PACKAGES: 'True'
   timeoutInMinutes: 360
   variables: {}
