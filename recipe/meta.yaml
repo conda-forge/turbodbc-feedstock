@@ -15,7 +15,7 @@ source:
   sha256: 946f43f3bf76f11b4abc3da372ebff0b6a0da08d22176019ec1ea8195d3e2a41
 
 build:
-  number: 0
+  number: 1
   skip: true  # [py<310]
   # turbodbc already has set the correct RPATHs, conda relocation breaks it
   # so skip it.
@@ -50,7 +50,6 @@ requirements:
     # pkg_resources is used to determine the package version
     - setuptools
     - six
-    - {{ pin_compatible('numpy') }}
     - unixodbc  # [unix]
     - pyarrow
 
