@@ -16,7 +16,8 @@ source:
 
 build:
   number: 0
-  skip: true  # [py<310 or libarrow=="14"]
+  skip: true  # [py<310]
+  skip: true  # [libarrow==14]
   # turbodbc already has set the correct RPATHs, conda relocation breaks it
   # so skip it.
   binary_relocation: false
@@ -63,6 +64,7 @@ test:
   commands:
     # We need to remove pybind11 from the runtime dependencies for this to suceed. 
     # - pip check
+    - echo "{{ libarrow }}"
 
 about:
   home: https://github.com/blue-yonder/turbodbc
