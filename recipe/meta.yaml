@@ -1,5 +1,5 @@
 {% set name = "turbodbc" %}
-{% set version = "4.14.0" %}
+{% set version = "5.0.0a1" %}
 
 # appease linter
 {% if libarrow is undefined %}
@@ -12,7 +12,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: 6ae340ed90683d29c0a085a48e06e83dbe923064efc494f4b77a30189c47010c
+  sha256: cb040e1ef128c06bc8fbc88e7e40d5fd95260254d4b8b7505ffc80cfefa59b34
 
 build:
   number: 0
@@ -40,12 +40,12 @@ requirements:
     - numpy
     - pybind11
     - python
-    - setuptools
     - six
     - unixodbc  # [unix]
     - libarrow
     - pyarrow
     - simdutf
+    - meson-python
   run:
     - python
     # pkg_resources is used to determine the package version
@@ -60,10 +60,8 @@ test:
     - pip
   imports:
     - turbodbc
-    - turbodbc.arrow_support
   commands:
-    # We need to remove pybind11 from the runtime dependencies for this to suceed. 
-    # - pip check
+    - pip check
     - echo "{{ libarrow }}"
 
 about:
