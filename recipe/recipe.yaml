@@ -1,0 +1,100 @@
+# appease linter
+schema_version: 1
+
+context:
+  name: turbodbc
+  version: 5.0.0a1
+  libarrow: 15
+
+package:
+  name: ${{ name|lower }}
+  version: ${{ version }}
+
+source:
+  url: https://pypi.io/packages/source/${{ name[0] }}/${{ name }}/${{ name }}-${{ version }}.tar.gz
+  sha256: cb040e1ef128c06bc8fbc88e7e40d5fd95260254d4b8b7505ffc80cfefa59b34
+
+build:
+  # turbodbc already has set the correct RPATHs, conda relocation breaks it
+  # so skip it.
+  number: 0
+  skip:
+    - libarrow==14
+  skip: true  # [libarrow==14]
+  dynamic_linking:
+    binary_relocation: false
+
+requirements:
+  build:
+    - if: build_platform != target_platform
+      then: python
+    - if: build_platform != target_platform
+      then: cross-python_${{ target_platform }}
+    - if: build_platform != target_platform
+      then: cython
+    - if: build_platform != target_platform
+      then: numpy
+    - if: build_platform != target_platform
+      then: libarrow
+    - if: build_platform != target_platform
+      then: pyarrow
+    - cmake
+    - pkg-config
+    - ${{ compiler('c') }}
+    - ${{ stdlib("c") }}
+    - ${{ compiler('cxx') }}
+  host:
+    - pip
+    - libboost-headers
+    - numpy
+    - pybind11
+    - python
+    - six
+    - if: unix
+      then: unixodbc
+    - libarrow
+    - pyarrow
+    - simdutf
+    - meson-python
+  run:
+    - python
+    # pkg_resources is used to determine the package version
+    - setuptools
+    - six
+    - ${{ pin_compatible('numpy') }}
+    - if: unix
+      then: unixodbc
+    - pyarrow
+
+tests:
+  - python:
+      imports:
+        - turbodbc
+      pip_check: true
+  - requirements:
+      run:
+        - pip
+    script:
+      - echo "${{ libarrow }}"
+
+about:
+  license: MIT
+  license_file: LICENSE
+  summary: access relational databases via the Open Database Connectivity (ODBC) interface
+  description: |
+    Turbodbc is a Python module to access relational databases via the Open
+    Database Connectivity (ODBC) interface. In addition to complying with the
+    Python Database API Specification 2.0, turbodbc offers built-in NumPy and
+    Apache Arrow support. Don't wait minutes for your results, just blink.
+
+
+  homepage: https://github.com/blue-yonder/turbodbc
+
+extra:
+  recipe-maintainers:
+    - ldacey
+    - MathMagique
+    - xhochy
+    - wesm
+    - fjetter
+
