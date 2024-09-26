@@ -70,11 +70,6 @@ tests:
       imports:
         - turbodbc
       pip_check: true
-  - requirements:
-      run:
-        - pip
-    script:
-      - echo "${{ libarrow }}"
 
 about:
   license: MIT
