@@ -3,7 +3,7 @@ About turbodbc-feedstock
 
 Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/turbodbc-feedstock/blob/main/LICENSE.txt)
 
-Home: https://github.com/blue-yonder/turbodbc
+
 
 Package license: MIT
 
@@ -13,7 +13,6 @@ Turbodbc is a Python module to access relational databases via the Open
 Database Connectivity (ODBC) interface. In addition to complying with the
 Python Database API Specification 2.0, turbodbc offers built-in NumPy and
 Apache Arrow support. Don't wait minutes for your results, just blink.
-
 
 Current build status
 ====================
@@ -33,6 +32,34 @@ Current build status
         <table>
           <thead><tr><th>Variant</th><th>Status</th></tr></thead>
           <tbody><tr>
+              <td>linux_64_libarrow14python3.10.____cpython</td>
+              <td>
+                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=2098&branchName=main">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/turbodbc-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_64_libarrow14python3.10.____cpython" alt="variant">
+                </a>
+              </td>
+            </tr><tr>
+              <td>linux_64_libarrow14python3.11.____cpython</td>
+              <td>
+                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=2098&branchName=main">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/turbodbc-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_64_libarrow14python3.11.____cpython" alt="variant">
+                </a>
+              </td>
+            </tr><tr>
+              <td>linux_64_libarrow14python3.12.____cpython</td>
+              <td>
+                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=2098&branchName=main">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/turbodbc-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_64_libarrow14python3.12.____cpython" alt="variant">
+                </a>
+              </td>
+            </tr><tr>
+              <td>linux_64_libarrow14python3.9.____cpython</td>
+              <td>
+                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=2098&branchName=main">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/turbodbc-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_64_libarrow14python3.9.____cpython" alt="variant">
+                </a>
+              </td>
+            </tr><tr>
               <td>linux_64_libarrow15python3.10.____cpython</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=2098&branchName=main">
@@ -51,6 +78,13 @@ Current build status
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=2098&branchName=main">
                   <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/turbodbc-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_64_libarrow15python3.12.____cpython" alt="variant">
+                </a>
+              </td>
+            </tr><tr>
+              <td>linux_64_libarrow15python3.9.____cpython</td>
+              <td>
+                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=2098&branchName=main">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/turbodbc-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_64_libarrow15python3.9.____cpython" alt="variant">
                 </a>
               </td>
             </tr><tr>
@@ -75,6 +109,13 @@ Current build status
                 </a>
               </td>
             </tr><tr>
+              <td>linux_64_libarrow16.1python3.9.____cpython</td>
+              <td>
+                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=2098&branchName=main">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/turbodbc-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_64_libarrow16.1python3.9.____cpython" alt="variant">
+                </a>
+              </td>
+            </tr><tr>
               <td>linux_64_libarrow17.0python3.10.____cpython</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=2098&branchName=main">
@@ -93,6 +134,41 @@ Current build status
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=2098&branchName=main">
                   <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/turbodbc-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_64_libarrow17.0python3.12.____cpython" alt="variant">
+                </a>
+              </td>
+            </tr><tr>
+              <td>linux_64_libarrow17.0python3.9.____cpython</td>
+              <td>
+                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=2098&branchName=main">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/turbodbc-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_64_libarrow17.0python3.9.____cpython" alt="variant">
+                </a>
+              </td>
+            </tr><tr>
+              <td>linux_aarch64_libarrow14python3.10.____cpython</td>
+              <td>
+                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=2098&branchName=main">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/turbodbc-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_aarch64_libarrow14python3.10.____cpython" alt="variant">
+                </a>
+              </td>
+            </tr><tr>
+              <td>linux_aarch64_libarrow14python3.11.____cpython</td>
+              <td>
+                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=2098&branchName=main">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/turbodbc-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_aarch64_libarrow14python3.11.____cpython" alt="variant">
+                </a>
+              </td>
+            </tr><tr>
+              <td>linux_aarch64_libarrow14python3.12.____cpython</td>
+              <td>
+                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=2098&branchName=main">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/turbodbc-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_aarch64_libarrow14python3.12.____cpython" alt="variant">
+                </a>
+              </td>
+            </tr><tr>
+              <td>linux_aarch64_libarrow14python3.9.____cpython</td>
+              <td>
+                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=2098&branchName=main">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/turbodbc-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_aarch64_libarrow14python3.9.____cpython" alt="variant">
                 </a>
               </td>
             </tr><tr>
@@ -117,6 +193,13 @@ Current build status
                 </a>
               </td>
             </tr><tr>
+              <td>linux_aarch64_libarrow15python3.9.____cpython</td>
+              <td>
+                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=2098&branchName=main">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/turbodbc-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_aarch64_libarrow15python3.9.____cpython" alt="variant">
+                </a>
+              </td>
+            </tr><tr>
               <td>linux_aarch64_libarrow16.1python3.10.____cpython</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=2098&branchName=main">
@@ -135,6 +218,13 @@ Current build status
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=2098&branchName=main">
                   <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/turbodbc-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_aarch64_libarrow16.1python3.12.____cpython" alt="variant">
+                </a>
+              </td>
+            </tr><tr>
+              <td>linux_aarch64_libarrow16.1python3.9.____cpython</td>
+              <td>
+                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=2098&branchName=main">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/turbodbc-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_aarch64_libarrow16.1python3.9.____cpython" alt="variant">
                 </a>
               </td>
             </tr><tr>
@@ -159,6 +249,41 @@ Current build status
                 </a>
               </td>
             </tr><tr>
+              <td>linux_aarch64_libarrow17.0python3.9.____cpython</td>
+              <td>
+                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=2098&branchName=main">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/turbodbc-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_aarch64_libarrow17.0python3.9.____cpython" alt="variant">
+                </a>
+              </td>
+            </tr><tr>
+              <td>linux_ppc64le_libarrow14python3.10.____cpython</td>
+              <td>
+                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=2098&branchName=main">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/turbodbc-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_ppc64le_libarrow14python3.10.____cpython" alt="variant">
+                </a>
+              </td>
+            </tr><tr>
+              <td>linux_ppc64le_libarrow14python3.11.____cpython</td>
+              <td>
+                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=2098&branchName=main">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/turbodbc-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_ppc64le_libarrow14python3.11.____cpython" alt="variant">
+                </a>
+              </td>
+            </tr><tr>
+              <td>linux_ppc64le_libarrow14python3.12.____cpython</td>
+              <td>
+                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=2098&branchName=main">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/turbodbc-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_ppc64le_libarrow14python3.12.____cpython" alt="variant">
+                </a>
+              </td>
+            </tr><tr>
+              <td>linux_ppc64le_libarrow14python3.9.____cpython</td>
+              <td>
+                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=2098&branchName=main">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/turbodbc-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_ppc64le_libarrow14python3.9.____cpython" alt="variant">
+                </a>
+              </td>
+            </tr><tr>
               <td>linux_ppc64le_libarrow15python3.10.____cpython</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=2098&branchName=main">
@@ -177,6 +302,13 @@ Current build status
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=2098&branchName=main">
                   <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/turbodbc-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_ppc64le_libarrow15python3.12.____cpython" alt="variant">
+                </a>
+              </td>
+            </tr><tr>
+              <td>linux_ppc64le_libarrow15python3.9.____cpython</td>
+              <td>
+                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=2098&branchName=main">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/turbodbc-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_ppc64le_libarrow15python3.9.____cpython" alt="variant">
                 </a>
               </td>
             </tr><tr>
@@ -201,6 +333,13 @@ Current build status
                 </a>
               </td>
             </tr><tr>
+              <td>linux_ppc64le_libarrow16.1python3.9.____cpython</td>
+              <td>
+                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=2098&branchName=main">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/turbodbc-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_ppc64le_libarrow16.1python3.9.____cpython" alt="variant">
+                </a>
+              </td>
+            </tr><tr>
               <td>linux_ppc64le_libarrow17.0python3.10.____cpython</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=2098&branchName=main">
@@ -219,6 +358,41 @@ Current build status
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=2098&branchName=main">
                   <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/turbodbc-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_ppc64le_libarrow17.0python3.12.____cpython" alt="variant">
+                </a>
+              </td>
+            </tr><tr>
+              <td>linux_ppc64le_libarrow17.0python3.9.____cpython</td>
+              <td>
+                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=2098&branchName=main">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/turbodbc-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_ppc64le_libarrow17.0python3.9.____cpython" alt="variant">
+                </a>
+              </td>
+            </tr><tr>
+              <td>osx_64_libarrow14python3.10.____cpython</td>
+              <td>
+                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=2098&branchName=main">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/turbodbc-feedstock?branchName=main&jobName=osx&configuration=osx%20osx_64_libarrow14python3.10.____cpython" alt="variant">
+                </a>
+              </td>
+            </tr><tr>
+              <td>osx_64_libarrow14python3.11.____cpython</td>
+              <td>
+                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=2098&branchName=main">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/turbodbc-feedstock?branchName=main&jobName=osx&configuration=osx%20osx_64_libarrow14python3.11.____cpython" alt="variant">
+                </a>
+              </td>
+            </tr><tr>
+              <td>osx_64_libarrow14python3.12.____cpython</td>
+              <td>
+                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=2098&branchName=main">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/turbodbc-feedstock?branchName=main&jobName=osx&configuration=osx%20osx_64_libarrow14python3.12.____cpython" alt="variant">
+                </a>
+              </td>
+            </tr><tr>
+              <td>osx_64_libarrow14python3.9.____cpython</td>
+              <td>
+                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=2098&branchName=main">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/turbodbc-feedstock?branchName=main&jobName=osx&configuration=osx%20osx_64_libarrow14python3.9.____cpython" alt="variant">
                 </a>
               </td>
             </tr><tr>
@@ -243,6 +417,13 @@ Current build status
                 </a>
               </td>
             </tr><tr>
+              <td>osx_64_libarrow15python3.9.____cpython</td>
+              <td>
+                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=2098&branchName=main">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/turbodbc-feedstock?branchName=main&jobName=osx&configuration=osx%20osx_64_libarrow15python3.9.____cpython" alt="variant">
+                </a>
+              </td>
+            </tr><tr>
               <td>osx_64_libarrow16.1python3.10.____cpython</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=2098&branchName=main">
@@ -261,6 +442,13 @@ Current build status
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=2098&branchName=main">
                   <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/turbodbc-feedstock?branchName=main&jobName=osx&configuration=osx%20osx_64_libarrow16.1python3.12.____cpython" alt="variant">
+                </a>
+              </td>
+            </tr><tr>
+              <td>osx_64_libarrow16.1python3.9.____cpython</td>
+              <td>
+                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=2098&branchName=main">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/turbodbc-feedstock?branchName=main&jobName=osx&configuration=osx%20osx_64_libarrow16.1python3.9.____cpython" alt="variant">
                 </a>
               </td>
             </tr><tr>
@@ -285,6 +473,41 @@ Current build status
                 </a>
               </td>
             </tr><tr>
+              <td>osx_64_libarrow17.0python3.9.____cpython</td>
+              <td>
+                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=2098&branchName=main">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/turbodbc-feedstock?branchName=main&jobName=osx&configuration=osx%20osx_64_libarrow17.0python3.9.____cpython" alt="variant">
+                </a>
+              </td>
+            </tr><tr>
+              <td>osx_arm64_libarrow14python3.10.____cpython</td>
+              <td>
+                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=2098&branchName=main">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/turbodbc-feedstock?branchName=main&jobName=osx&configuration=osx%20osx_arm64_libarrow14python3.10.____cpython" alt="variant">
+                </a>
+              </td>
+            </tr><tr>
+              <td>osx_arm64_libarrow14python3.11.____cpython</td>
+              <td>
+                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=2098&branchName=main">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/turbodbc-feedstock?branchName=main&jobName=osx&configuration=osx%20osx_arm64_libarrow14python3.11.____cpython" alt="variant">
+                </a>
+              </td>
+            </tr><tr>
+              <td>osx_arm64_libarrow14python3.12.____cpython</td>
+              <td>
+                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=2098&branchName=main">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/turbodbc-feedstock?branchName=main&jobName=osx&configuration=osx%20osx_arm64_libarrow14python3.12.____cpython" alt="variant">
+                </a>
+              </td>
+            </tr><tr>
+              <td>osx_arm64_libarrow14python3.9.____cpython</td>
+              <td>
+                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=2098&branchName=main">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/turbodbc-feedstock?branchName=main&jobName=osx&configuration=osx%20osx_arm64_libarrow14python3.9.____cpython" alt="variant">
+                </a>
+              </td>
+            </tr><tr>
               <td>osx_arm64_libarrow15python3.10.____cpython</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=2098&branchName=main">
@@ -303,6 +526,13 @@ Current build status
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=2098&branchName=main">
                   <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/turbodbc-feedstock?branchName=main&jobName=osx&configuration=osx%20osx_arm64_libarrow15python3.12.____cpython" alt="variant">
+                </a>
+              </td>
+            </tr><tr>
+              <td>osx_arm64_libarrow15python3.9.____cpython</td>
+              <td>
+                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=2098&branchName=main">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/turbodbc-feedstock?branchName=main&jobName=osx&configuration=osx%20osx_arm64_libarrow15python3.9.____cpython" alt="variant">
                 </a>
               </td>
             </tr><tr>
@@ -327,6 +557,13 @@ Current build status
                 </a>
               </td>
             </tr><tr>
+              <td>osx_arm64_libarrow16.1python3.9.____cpython</td>
+              <td>
+                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=2098&branchName=main">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/turbodbc-feedstock?branchName=main&jobName=osx&configuration=osx%20osx_arm64_libarrow16.1python3.9.____cpython" alt="variant">
+                </a>
+              </td>
+            </tr><tr>
               <td>osx_arm64_libarrow17.0python3.10.____cpython</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=2098&branchName=main">
@@ -345,6 +582,41 @@ Current build status
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=2098&branchName=main">
                   <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/turbodbc-feedstock?branchName=main&jobName=osx&configuration=osx%20osx_arm64_libarrow17.0python3.12.____cpython" alt="variant">
+                </a>
+              </td>
+            </tr><tr>
+              <td>osx_arm64_libarrow17.0python3.9.____cpython</td>
+              <td>
+                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=2098&branchName=main">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/turbodbc-feedstock?branchName=main&jobName=osx&configuration=osx%20osx_arm64_libarrow17.0python3.9.____cpython" alt="variant">
+                </a>
+              </td>
+            </tr><tr>
+              <td>win_64_libarrow14python3.10.____cpython</td>
+              <td>
+                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=2098&branchName=main">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/turbodbc-feedstock?branchName=main&jobName=win&configuration=win%20win_64_libarrow14python3.10.____cpython" alt="variant">
+                </a>
+              </td>
+            </tr><tr>
+              <td>win_64_libarrow14python3.11.____cpython</td>
+              <td>
+                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=2098&branchName=main">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/turbodbc-feedstock?branchName=main&jobName=win&configuration=win%20win_64_libarrow14python3.11.____cpython" alt="variant">
+                </a>
+              </td>
+            </tr><tr>
+              <td>win_64_libarrow14python3.12.____cpython</td>
+              <td>
+                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=2098&branchName=main">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/turbodbc-feedstock?branchName=main&jobName=win&configuration=win%20win_64_libarrow14python3.12.____cpython" alt="variant">
+                </a>
+              </td>
+            </tr><tr>
+              <td>win_64_libarrow14python3.9.____cpython</td>
+              <td>
+                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=2098&branchName=main">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/turbodbc-feedstock?branchName=main&jobName=win&configuration=win%20win_64_libarrow14python3.9.____cpython" alt="variant">
                 </a>
               </td>
             </tr><tr>
@@ -369,6 +641,13 @@ Current build status
                 </a>
               </td>
             </tr><tr>
+              <td>win_64_libarrow15python3.9.____cpython</td>
+              <td>
+                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=2098&branchName=main">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/turbodbc-feedstock?branchName=main&jobName=win&configuration=win%20win_64_libarrow15python3.9.____cpython" alt="variant">
+                </a>
+              </td>
+            </tr><tr>
               <td>win_64_libarrow16.1python3.10.____cpython</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=2098&branchName=main">
@@ -387,6 +666,13 @@ Current build status
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=2098&branchName=main">
                   <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/turbodbc-feedstock?branchName=main&jobName=win&configuration=win%20win_64_libarrow16.1python3.12.____cpython" alt="variant">
+                </a>
+              </td>
+            </tr><tr>
+              <td>win_64_libarrow16.1python3.9.____cpython</td>
+              <td>
+                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=2098&branchName=main">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/turbodbc-feedstock?branchName=main&jobName=win&configuration=win%20win_64_libarrow16.1python3.9.____cpython" alt="variant">
                 </a>
               </td>
             </tr><tr>
@@ -410,6 +696,13 @@ Current build status
                   <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/turbodbc-feedstock?branchName=main&jobName=win&configuration=win%20win_64_libarrow17.0python3.12.____cpython" alt="variant">
                 </a>
               </td>
+            </tr><tr>
+              <td>win_64_libarrow17.0python3.9.____cpython</td>
+              <td>
+                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=2098&branchName=main">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/turbodbc-feedstock?branchName=main&jobName=win&configuration=win%20win_64_libarrow17.0python3.9.____cpython" alt="variant">
+                </a>
+              </td>
             </tr>
           </tbody>
         </table>
@@ -428,14 +721,14 @@ Current release info
 Installing turbodbc
 ===================
 
-Installing `turbodbc` from the `conda-forge/label/turbodbc_dev` channel can be achieved by adding `conda-forge/label/turbodbc_dev` to your channels with:
+Installing `turbodbc` from the `conda-forge` channel can be achieved by adding `conda-forge` to your channels with:
 
 ```
-conda config --add channels conda-forge/label/turbodbc_dev
+conda config --add channels conda-forge
 conda config --set channel_priority strict
 ```
 
-Once the `conda-forge/label/turbodbc_dev` channel has been enabled, `turbodbc` can be installed with `conda`:
+Once the `conda-forge` channel has been enabled, `turbodbc` can be installed with `conda`:
 
 ```
 conda install turbodbc
@@ -450,26 +743,26 @@ mamba install turbodbc
 It is possible to list all of the versions of `turbodbc` available on your platform with `conda`:
 
 ```
-conda search turbodbc --channel conda-forge/label/turbodbc_dev
+conda search turbodbc --channel conda-forge
 ```
 
 or with `mamba`:
 
 ```
-mamba search turbodbc --channel conda-forge/label/turbodbc_dev
+mamba search turbodbc --channel conda-forge
 ```
 
 Alternatively, `mamba repoquery` may provide more information:
 
 ```
 # Search all versions available on your platform:
-mamba repoquery search turbodbc --channel conda-forge/label/turbodbc_dev
+mamba repoquery search turbodbc --channel conda-forge
 
 # List packages depending on `turbodbc`:
-mamba repoquery whoneeds turbodbc --channel conda-forge/label/turbodbc_dev
+mamba repoquery whoneeds turbodbc --channel conda-forge
 
 # List dependencies of `turbodbc`:
-mamba repoquery depends turbodbc --channel conda-forge/label/turbodbc_dev
+mamba repoquery depends turbodbc --channel conda-forge
 ```
 
 

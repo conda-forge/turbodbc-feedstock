@@ -8,6 +8,18 @@ jobs:
     vmImage: windows-2022
   strategy:
     matrix:
+      win_64_libarrow14python3.10.____cpython:
+        CONFIG: win_64_libarrow14python3.10.____cpython
+        UPLOAD_PACKAGES: 'True'
+      win_64_libarrow14python3.11.____cpython:
+        CONFIG: win_64_libarrow14python3.11.____cpython
+        UPLOAD_PACKAGES: 'True'
+      win_64_libarrow14python3.12.____cpython:
+        CONFIG: win_64_libarrow14python3.12.____cpython
+        UPLOAD_PACKAGES: 'True'
+      win_64_libarrow14python3.9.____cpython:
+        CONFIG: win_64_libarrow14python3.9.____cpython
+        UPLOAD_PACKAGES: 'True'
       win_64_libarrow15python3.10.____cpython:
         CONFIG: win_64_libarrow15python3.10.____cpython
         UPLOAD_PACKAGES: 'True'
@@ -16,6 +28,9 @@ jobs:
         UPLOAD_PACKAGES: 'True'
       win_64_libarrow15python3.12.____cpython:
         CONFIG: win_64_libarrow15python3.12.____cpython
+        UPLOAD_PACKAGES: 'True'
+      win_64_libarrow15python3.9.____cpython:
+        CONFIG: win_64_libarrow15python3.9.____cpython
         UPLOAD_PACKAGES: 'True'
       win_64_libarrow16.1python3.10.____cpython:
         CONFIG: win_64_libarrow16.1python3.10.____cpython
@@ -26,6 +41,9 @@ jobs:
       win_64_libarrow16.1python3.12.____cpython:
         CONFIG: win_64_libarrow16.1python3.12.____cpython
         UPLOAD_PACKAGES: 'True'
+      win_64_libarrow16.1python3.9.____cpython:
+        CONFIG: win_64_libarrow16.1python3.9.____cpython
+        UPLOAD_PACKAGES: 'True'
       win_64_libarrow17.0python3.10.____cpython:
         CONFIG: win_64_libarrow17.0python3.10.____cpython
         UPLOAD_PACKAGES: 'True'
@@ -34,6 +52,9 @@ jobs:
         UPLOAD_PACKAGES: 'True'
       win_64_libarrow17.0python3.12.____cpython:
         CONFIG: win_64_libarrow17.0python3.12.____cpython
+        UPLOAD_PACKAGES: 'True'
+      win_64_libarrow17.0python3.9.____cpython:
+        CONFIG: win_64_libarrow17.0python3.9.____cpython
         UPLOAD_PACKAGES: 'True'
     maxParallel: 8
   timeoutInMinutes: 360
