@@ -20,7 +20,6 @@ build:
   number: 0
   skip:
     - libarrow==14
-  skip: true  # [libarrow==14]
   dynamic_linking:
     binary_relocation: false
 
