@@ -33,6 +33,7 @@ requirements:
     - pyarrow                                # [build_platform != target_platform]
     - cmake
     - pkg-config
+    - ninja
     - {{ compiler('c') }}
     - {{ stdlib("c") }}
     - {{ compiler('cxx') }}
