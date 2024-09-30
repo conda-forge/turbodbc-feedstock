@@ -18,7 +18,6 @@ build:
   number: 0
   skip: true  # [py<310]
   skip: true  # [libarrow==14]
-  script: {{ PYTHON }} -m pip install -vv .
   # turbodbc already has set the correct RPATHs, conda relocation breaks it
   # so skip it.
   binary_relocation: false
@@ -44,6 +43,7 @@ requirements:
     - numpy
     - pybind11
     - python
+    - python-build
     - six
     - unixodbc  # [unix]
     - libarrow
