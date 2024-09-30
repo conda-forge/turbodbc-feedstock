@@ -1,5 +1,5 @@
 {% set name = "turbodbc" %}
-{% set version = "5.0.0a3" %}
+{% set version = "5.0.1" %}
 
 # appease linter
 {% if libarrow is undefined %}
@@ -12,7 +12,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: 1d5fb3469ae72731d3ad29643b0f814a8ed331bddd55660a745e9d449888b5a3
+  sha256: b5ef43f32c1bb58fd07c57ef2a5da067a64520e15a2a3c119bf9e922d618d748
 
 build:
   number: 0
