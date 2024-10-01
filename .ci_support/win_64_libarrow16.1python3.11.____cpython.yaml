@@ -5,13 +5,13 @@ c_stdlib:
 channel_sources:
 - conda-forge
 channel_targets:
-- conda-forge turbodbc_dev
+- conda-forge main
 cxx_compiler:
 - vs2019
 libarrow:
 - '16.1'
 libboost_headers:
-- '1.84'
+- '1.86'
 numpy:
 - '2.0'
 pin_run_as_build:
