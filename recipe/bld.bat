@@ -1,3 +1,4 @@
-set BOOST_ROOT=%LIBRARY_PREFIX%
+@echo on
 
-python -m pip install -vv .
+%PYTHON% -m pip install -vv .
+if errorlevel 1 exit 1
