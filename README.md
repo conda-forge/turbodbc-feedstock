@@ -428,14 +428,14 @@ Current release info
 Installing turbodbc
 ===================
 
-Installing `turbodbc` from the `conda-forge` channel can be achieved by adding `conda-forge` to your channels with:
+Installing `turbodbc` from the `conda-forge/label/turbodbc_dev` channel can be achieved by adding `conda-forge/label/turbodbc_dev` to your channels with:
 
 ```
-conda config --add channels conda-forge
+conda config --add channels conda-forge/label/turbodbc_dev
 conda config --set channel_priority strict
 ```
 
-Once the `conda-forge` channel has been enabled, `turbodbc` can be installed with `conda`:
+Once the `conda-forge/label/turbodbc_dev` channel has been enabled, `turbodbc` can be installed with `conda`:
 
 ```
 conda install turbodbc
@@ -450,26 +450,26 @@ mamba install turbodbc
 It is possible to list all of the versions of `turbodbc` available on your platform with `conda`:
 
 ```
-conda search turbodbc --channel conda-forge
+conda search turbodbc --channel conda-forge/label/turbodbc_dev
 ```
 
 or with `mamba`:
 
 ```
-mamba search turbodbc --channel conda-forge
+mamba search turbodbc --channel conda-forge/label/turbodbc_dev
 ```
 
 Alternatively, `mamba repoquery` may provide more information:
 
 ```
 # Search all versions available on your platform:
-mamba repoquery search turbodbc --channel conda-forge
+mamba repoquery search turbodbc --channel conda-forge/label/turbodbc_dev
 
 # List packages depending on `turbodbc`:
-mamba repoquery whoneeds turbodbc --channel conda-forge
+mamba repoquery whoneeds turbodbc --channel conda-forge/label/turbodbc_dev
 
 # List dependencies of `turbodbc`:
-mamba repoquery depends turbodbc --channel conda-forge
+mamba repoquery depends turbodbc --channel conda-forge/label/turbodbc_dev
 ```
 
 
