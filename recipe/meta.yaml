@@ -31,6 +31,7 @@ requirements:
     - libarrow                               # [build_platform != target_platform]
     - pyarrow                                # [build_platform != target_platform]
     - meson-python                           # [build_platform != target_platform]
+    - sed                                    # [build_platform != target_platform]
     - cmake
     - pkg-config
     - ninja
