@@ -44,6 +44,18 @@ jobs:
         CONFIG: linux_64_libarrow17.0python3.12.____cpython
         UPLOAD_PACKAGES: 'True'
         DOCKER_IMAGE: quay.io/condaforge/linux-anvil-cos7-x86_64
+      linux_64_libarrow18.0python3.10.____cpython:
+        CONFIG: linux_64_libarrow18.0python3.10.____cpython
+        UPLOAD_PACKAGES: 'True'
+        DOCKER_IMAGE: quay.io/condaforge/linux-anvil-cos7-x86_64
+      linux_64_libarrow18.0python3.11.____cpython:
+        CONFIG: linux_64_libarrow18.0python3.11.____cpython
+        UPLOAD_PACKAGES: 'True'
+        DOCKER_IMAGE: quay.io/condaforge/linux-anvil-cos7-x86_64
+      linux_64_libarrow18.0python3.12.____cpython:
+        CONFIG: linux_64_libarrow18.0python3.12.____cpython
+        UPLOAD_PACKAGES: 'True'
+        DOCKER_IMAGE: quay.io/condaforge/linux-anvil-cos7-x86_64
       linux_aarch64_libarrow15python3.10.____cpython:
         CONFIG: linux_aarch64_libarrow15python3.10.____cpython
         UPLOAD_PACKAGES: 'True'
@@ -80,6 +92,18 @@ jobs:
         CONFIG: linux_aarch64_libarrow17.0python3.12.____cpython
         UPLOAD_PACKAGES: 'True'
         DOCKER_IMAGE: quay.io/condaforge/linux-anvil-cos7-x86_64
+      linux_aarch64_libarrow18.0python3.10.____cpython:
+        CONFIG: linux_aarch64_libarrow18.0python3.10.____cpython
+        UPLOAD_PACKAGES: 'True'
+        DOCKER_IMAGE: quay.io/condaforge/linux-anvil-cos7-x86_64
+      linux_aarch64_libarrow18.0python3.11.____cpython:
+        CONFIG: linux_aarch64_libarrow18.0python3.11.____cpython
+        UPLOAD_PACKAGES: 'True'
+        DOCKER_IMAGE: quay.io/condaforge/linux-anvil-cos7-x86_64
+      linux_aarch64_libarrow18.0python3.12.____cpython:
+        CONFIG: linux_aarch64_libarrow18.0python3.12.____cpython
+        UPLOAD_PACKAGES: 'True'
+        DOCKER_IMAGE: quay.io/condaforge/linux-anvil-cos7-x86_64
       linux_ppc64le_libarrow15python3.10.____cpython:
         CONFIG: linux_ppc64le_libarrow15python3.10.____cpython
         UPLOAD_PACKAGES: 'True'
@@ -114,6 +138,18 @@ jobs:
         DOCKER_IMAGE: quay.io/condaforge/linux-anvil-cos7-x86_64
       linux_ppc64le_libarrow17.0python3.12.____cpython:
         CONFIG: linux_ppc64le_libarrow17.0python3.12.____cpython
+        UPLOAD_PACKAGES: 'True'
+        DOCKER_IMAGE: quay.io/condaforge/linux-anvil-cos7-x86_64
+      linux_ppc64le_libarrow18.0python3.10.____cpython:
+        CONFIG: linux_ppc64le_libarrow18.0python3.10.____cpython
+        UPLOAD_PACKAGES: 'True'
+        DOCKER_IMAGE: quay.io/condaforge/linux-anvil-cos7-x86_64
+      linux_ppc64le_libarrow18.0python3.11.____cpython:
+        CONFIG: linux_ppc64le_libarrow18.0python3.11.____cpython
+        UPLOAD_PACKAGES: 'True'
+        DOCKER_IMAGE: quay.io/condaforge/linux-anvil-cos7-x86_64
+      linux_ppc64le_libarrow18.0python3.12.____cpython:
+        CONFIG: linux_ppc64le_libarrow18.0python3.12.____cpython
         UPLOAD_PACKAGES: 'True'
         DOCKER_IMAGE: quay.io/condaforge/linux-anvil-cos7-x86_64
     maxParallel: 25

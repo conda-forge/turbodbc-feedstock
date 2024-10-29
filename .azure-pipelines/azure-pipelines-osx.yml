@@ -35,6 +35,15 @@ jobs:
       osx_64_libarrow17.0python3.12.____cpython:
         CONFIG: osx_64_libarrow17.0python3.12.____cpython
         UPLOAD_PACKAGES: 'True'
+      osx_64_libarrow18.0python3.10.____cpython:
+        CONFIG: osx_64_libarrow18.0python3.10.____cpython
+        UPLOAD_PACKAGES: 'True'
+      osx_64_libarrow18.0python3.11.____cpython:
+        CONFIG: osx_64_libarrow18.0python3.11.____cpython
+        UPLOAD_PACKAGES: 'True'
+      osx_64_libarrow18.0python3.12.____cpython:
+        CONFIG: osx_64_libarrow18.0python3.12.____cpython
+        UPLOAD_PACKAGES: 'True'
       osx_arm64_libarrow15python3.10.____cpython:
         CONFIG: osx_arm64_libarrow15python3.10.____cpython
         UPLOAD_PACKAGES: 'True'
@@ -61,6 +70,15 @@ jobs:
         UPLOAD_PACKAGES: 'True'
       osx_arm64_libarrow17.0python3.12.____cpython:
         CONFIG: osx_arm64_libarrow17.0python3.12.____cpython
+        UPLOAD_PACKAGES: 'True'
+      osx_arm64_libarrow18.0python3.10.____cpython:
+        CONFIG: osx_arm64_libarrow18.0python3.10.____cpython
+        UPLOAD_PACKAGES: 'True'
+      osx_arm64_libarrow18.0python3.11.____cpython:
+        CONFIG: osx_arm64_libarrow18.0python3.11.____cpython
+        UPLOAD_PACKAGES: 'True'
+      osx_arm64_libarrow18.0python3.12.____cpython:
+        CONFIG: osx_arm64_libarrow18.0python3.12.____cpython
         UPLOAD_PACKAGES: 'True'
     maxParallel: 17
   timeoutInMinutes: 360
