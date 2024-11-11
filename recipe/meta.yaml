@@ -3,7 +3,7 @@
 
 # appease linter
 {% if libarrow is undefined %}
-{% set libarrow = "15" %}
+{% set libarrow = "18" %}
 {% endif %}
 
 package:
@@ -11,11 +11,11 @@ package:
   version: {{ version }}
 
 source:
-  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
+  url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
   sha256: 863d00abae5f6fee4a7c9a2e4339f838ab978ffd9bd5195abe28d69eab3e85a5
 
 build:
-  number: 1
+  number: 2
   skip: true  # [py<310]
   skip: true  # [libarrow==14]
   # turbodbc already has set the correct RPATHs, conda relocation breaks it
