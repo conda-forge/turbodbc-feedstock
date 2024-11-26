@@ -15,9 +15,12 @@ source:
   sha256: 863d00abae5f6fee4a7c9a2e4339f838ab978ffd9bd5195abe28d69eab3e85a5
 
 build:
-  number: 2
+  number: 3
   skip: true  # [py<310]
-  skip: true  # [libarrow==14]
+  {% if libarrow.split(".")[0]|int < 18 %}
+  # python 3.13 only supported from pyarrow 18
+  skip: true  # [py==313]
+  {% endif %}
   # turbodbc already has set the correct RPATHs, conda relocation breaks it
   # so skip it.
   binary_relocation: false
