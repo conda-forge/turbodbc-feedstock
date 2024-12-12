@@ -1,5 +1,5 @@
 {% set name = "turbodbc" %}
-{% set version = "5.0.2" %}
+{% set version = "5.1.0" %}
 
 # appease linter
 {% if libarrow is undefined %}
@@ -12,10 +12,10 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: 863d00abae5f6fee4a7c9a2e4339f838ab978ffd9bd5195abe28d69eab3e85a5
+  sha256: e7ea97a62d175c3e7faeb6447a0fccd9254095354481f5c48676b29e602c6b0d
 
 build:
-  number: 4
+  number: 0
   skip: true  # [py<310]
   {% if libarrow.split(".")[0]|int < 18 %}
   # python 3.13 only supported from pyarrow 18
