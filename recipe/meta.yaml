@@ -16,7 +16,7 @@ source:
 
 build:
   number: 0
-  skip: true  # [py<310]
+  skip: true  # [py<311]
   {% if libarrow.split(".")[0]|int < 18 %}
   # python 3.13 only supported from pyarrow 18
   skip: true  # [py==313]
