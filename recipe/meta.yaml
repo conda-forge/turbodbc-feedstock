@@ -15,7 +15,7 @@ source:
   sha256: 7176a1096dfc5dcc1fb5d5b5d0d4164b4c7141d0e1c3d0a38857144378dff8f4
 
 build:
-  number: 1
+  number: 2
   skip: true  # [py<311]
   # turbodbc already has set the correct RPATHs, conda relocation breaks it
   # so skip it.
