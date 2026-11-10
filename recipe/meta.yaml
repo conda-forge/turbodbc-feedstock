@@ -17,6 +17,8 @@ source:
 build:
   number: 3
   skip: true  # [py<311]
+  # pyarrow<25 has no python 3.15 builds (upstream supports 3.15 from arrow 26)
+  skip: true  # [py>=315 and libarrow in ("23.0", "24.0")]
   # turbodbc already has set the correct RPATHs, conda relocation breaks it
   # so skip it.
   binary_relocation: false
